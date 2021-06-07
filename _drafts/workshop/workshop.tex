@@ -32,7 +32,7 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata}
 
-\title{Workshop Proposal: Advances in Programming Languages and Neurosymbolic Systems (AIPLANS)}
+\title{Advances in Programming Languages\\ and Neurosymbolic Systems (AIPLANS)}
 
 % The \author macro works with any number of authors. There are two commands
 % used to separate the names and addresses of multiple authors: \And and \AND.
@@ -81,9 +81,9 @@
         Automatic differentiation libraries and frameworks have enabled much progress in gradient-based learning over the last decade. Recent domain-specific languages for automatic programming hold the promise of unleashing similar progress in e.g., probabilistic and classical reasoning. Concurrently, machines have made steady progress in representing and synthesizing programs. Other workshops have explored these themes separately, yet few have highlighted the synergies between automatic and synthetic programming, a situation we hope to remedy.
     \end{abstract}
 
-    \section{Introduction}
+    \section{Proposal}
 
-    Neural information processing systems have benefited tremendously from the availability of programming languages and frameworks for automatic differentiation. Similar domain-specific languages have shown progress automating inference in other logical disciplines, such as probabilistic and classical logic, proof nets, and related message passing schemes on tree- and graph-structured data.
+    Neural information processing systems have benefited tremendously from the availability of programming languages and frameworks for automatic differentiation. Similar domain-specific languages have shown progress automating inference in other logical disciplines, such as belief nets, proof nets, and related message passing schemes on tree- and graph-structured data.
 
     Not only does machine learning itself benefit from languages for programmable inference, these systems can also be seen as a kind of low-level programming language in their own right, consisting of differentiable and stochastic primitives. While currently less interpretable, thanks to recent progress in statistical language modeling, these systems are increasingly capable of generating symbolic functions resembling procedures a human programmer might plausibly write in a high-level language.
 
@@ -107,11 +107,11 @@
 
     Likewise, many recently-transplanted ideas in machine learning are catechism in the programming language literature. For example, functional and type-safe programming are lingua franca in PL circles but relatively new to Python, the primary language used in machine learning. The duality between code and data is well-known in PL under the aegis of homoiconicity. PL theory has thought deeply about catgorical semantics, concurrency, process calculi, linear logic, privacy and other deeply useful concepts which remain, to this day, mostly unfamiliar in the machine learning community.
 
-    Similarly, the programming language community too, has its blind spots. PLs have long wrestled with the distinction between intensional and extensional representation, a distinction which the statistical learning community has long since reconciled under the umbrella of model-based learning and approximation theory. PL could take a page from structured inference and propagation algorithms as a medium for distributed computation. We believe many other such examples await discovery.
+%    Similarly, the programming language community too, has its blind spots. PLs have long wrestled with the distinction between intensional and extensional representation, a distinction which the statistical learning community has long since reconciled under the umbrella of model-based learning and approximation theory. PL could take a page from structured inference and propagation algorithms as a medium for distributed computation. We believe many other such examples await discovery.
 
     Other areas where the interaction could be fruitful are tools for equivalence, proof search and metrics. A deeper understanding of programming language semantics are largely missing from neural program synthesis discussions. The connection between various forms of message passing in concurrent systems and neural science merits further investigation. New language models could enable more effective tools for natural language and assistive programming. While some of these topics remain greenfield research topics, many connections are known, but yet-to-be-translated textbook knowledge.
 
-    As outlined above, we believe that recent advances in statistical learning and programming languages have been largely siloed, but these two communities have many ideas yet to share. In exchange, we believe a great deal of progress can be achived, in particular, between automatic and synthetic programming. A joint workshop such as the one put forward in this proposal could help to facilitate yet-unrealized research connections among neighboring fields. Our workshop is designed to be as inclusive as possible towards researchers of various backgrounds working on programming languages and neurosymbolic systems. For illustration, we include the following non-exhaustive list of topics:
+    As outlined above, we believe that recent advances in statistical learning and programming languages have been largely siloed, but these two communities have many ideas yet to share. In exchange, we believe a great deal of progress can be achived, in particular, between automatic and synthetic programming. A joint workshop such as the one put forward in this proposal could help to facilitate yet-unrealized research connections among neighboring fields. Our workshop is designed to be as inclusive as possible towards researchers of various backgrounds working on programming languages and neurosymbolic systems. For illustration, we include the following incomplete list of topics:
 
     \begin{itemize}
       \item Differentiable programming / algorithmic differentiation
@@ -130,6 +130,10 @@
       \item Differential privacy / algorithmic fairness
     \end{itemize}
 
-    We would like to particularly encourage developers of languages, frameworks and libraries to submit their ongoing work for evaluation. Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are also encouraged to consider submitting work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics will be made available in a timely manner, pending acceptance. Further information, including examples of relevant literature can be found at \url{https://aiplans.github.io}.
+    The workshop will be a single-day event hosted online, enabling an economically and geographically diverse audience to participate. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a virtual poster session. Outside of standard videoconferencing and SlidesLive assistance, we anticipate no other technical requirements. If accepted, we expect to receive an audience a hundred or so participants, including speakers and workshop submitters, based on attendance at similarly-themed workshops in prior years.
+
+    We would like to encourage developers of languages, frameworks and libraries to submit their work for evaluation. Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are also encouraged to submit work that may be relevant to the machine learning and reasoning community, provided that effort is taken to ensure its accessibility. Special consideration will be given to didactic submissions of outstanding clarity. Further information, including evaluation criteria, examples of relevant literature, deadlines and workshop logistics will be made available in a timely manner.
+
+   \textbf{Tagline:} Are you curious whether machines can write programs that are both sound and interpretable? Come check out AIPLANS, a new workshop on domain-specific languages for learning and synthetic reasoning, to be hosted at NeurIPS 2021! \url{https://aiplans.github.io}
 
 \end{document}
