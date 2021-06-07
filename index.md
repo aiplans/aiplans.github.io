@@ -7,16 +7,27 @@ title: Home
 layout: home
 ---
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
+Automatic differentiation libraries and frameworks have enabled much progress in gradient-based learning over the last decade. Recent domain-specific languages for automatic programming hold the promise of unleashing similar progress in other logical disciplines e.g., belief nets, proof nets, and related message passing schemes on tree- and graph-structured data. Concurrently, machines have made steady progress in representing and synthesizing programs. Other workshops have explored these themes separately, yet few have highlighted the synergies between automatic and synthetic programming.
 
-![](assets/img/banner.jpg)
+Not only does machine learning itself benefit from languages for programmable inference, these systems can also be seen as a kind of low-level programming language in their own right, consisting of differentiable and stochastic primitives. While currently less interpretable, thanks to recent progress in statistical language modeling, these systems are increasingly capable of generating symbolic functions resembling procedures a human programmer might plausibly write in a high-level language.
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
+Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those same programs to drive innovation in higher-order AD and probabilistic programming is a virtuous cycle, with a growing stream of software and academic papers. We envision cooperation between automatic and synthetic programming will continue to grow as researchers become more accustomed to outsourcing low-level reasoning tasks to these systems.
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
+Our workshop is designed to be as inclusive as possible towards researchers of various backgrounds working on programming languages and neurosymbolic systems. For illustration, we include the following non-exhaustive list of topics:
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+* Differentiable programming / algorithmic differentiation
+* Probabilistic programming / statistical inference
+* Declarative programming / constraint programming
+* Dynamic programming / reinforcement learning
+* Functional programming / λ-calculus
+* Array programming / linear algebra
+* Semiring programming / message passing
+* Logic programming / Relational programming
+* Meta-programming / meta-learning
+* Computer aided reasoning / automatic theorem proving
+* Domain-specific languages and compilers
+* Inductive programming / programming by example
+* Genetic programming / evolutionary algorithms
+* Differential privacy / algorithmic fairness
+
+We would like to particularly encourage developers of languages, frameworks and libraries to submit their ongoing work for evaluation. Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are also encouraged to consider submitting work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics will be made available in a timely manner.
