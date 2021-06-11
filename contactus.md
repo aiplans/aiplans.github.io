@@ -1,7 +1,7 @@
----
-layout: page
-title: Contact Us
-permalink: /contactus/
----
+<!------->
+<!--layout: page-->
+<!--title: Contact Us-->
+<!--permalink: /contactus/-->
+<!------->
 
-Here's how you can contact us ...
+<!--Here's how you can contact us ...-->

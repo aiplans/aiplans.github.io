@@ -27,7 +27,5 @@ Our workshop is designed to be as inclusive as possible towards researchers of v
 * Computer aided reasoning / automatic theorem proving
 * Domain-specific languages and compilers
 * Inductive programming / programming by example
-* Genetic programming / evolutionary algorithms
-* Differential privacy / algorithmic fairness
 
 We would like to particularly encourage developers of languages, frameworks and libraries to submit their ongoing work for evaluation. Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are also encouraged to consider submitting work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics will be made available in a timely manner.
