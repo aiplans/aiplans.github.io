@@ -29,6 +29,9 @@
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 \usepackage{xcolor}         % colors
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{schedule}
 
 \usepackage{float}
 \usepackage{pgf}
@@ -52,11 +55,10 @@
 % \AND instead of \And before the third author name.
 
 \author{%
-    Breandan Considine$^{1, 4}$, Disha Shrivastava$^{1, 3, 4}$, David Yu-Tung Hui$^{2, 4}$ \\
-    \textbf{Chin-Wei Huang$^{2, 4}$, Shawn Tan$^{2, 4}$, Xujie Si$^{1, 4}$, Prakash Panangaden$^{1, 4}$} \\
-    McGill University$^1$, Universit\'e de Montr\'eal$^2$, Google Research$^3$, Mila$^4$ \\
-    \texttt{\{considib, shrivast, huidavid, huangchi, tanjings,}\\
-    \texttt{xujie.si, prakash.panangaden\}@mila.quebec} \\
+    Breandan Considine$^{1, 5}$, Disha Shrivastava$^{1, 3, 5}$, \\\textbf{David Yu-Tung Hui$^{2, 5}$, Chin-Wei Huang$^{2, 5}$, Shawn Tan$^{2, 5}$} \\
+    Prakash Panangaden$^{1, 5}$, Xujie Si$^{1, 5}$, Stefan Monnier$^{2}$, Danny Tarlow$^{1, 3, 5}$, Guy Van den Broeck$^6$\\
+    McGill University$^1$, Universit\'e de Montr\'eal$^2$, Google Research$^3$, HEC$^4$, Mila$^5$, UCLA$^6$ \\
+    \texttt{\{considib,shrivast,huidavid,huangchi,tanjings\}@mila.quebec} \\
 }
 
 \begin{document}
@@ -77,41 +79,42 @@
         \item \textbf{Machine learning researchers} would present advances in meta-learning, reinforcement learning and program synthesis. AIPLANS would afford these participants an opportunity to learn about new automatic programming languages and techniques for inference.
         \item \textbf{Language designers} would be able to give tutorials on newly developed software such as JAX, DEX, PyTorch and their latest features. AIPLANS would give them an opportunity to engage their users and stay in touch with the community's needs and research directions.
         \item \textbf{PL theorists} would present fundamental theory behind the design of automatic programming languages, such as functional, semiring or array programming. At AIPLANS, they would gain a better understanding of practical research problems the ML community is tackling.
-        \item \textbf{Probabilistic programming researchers} would present advances in, e.g., Bayesian program synthesis and neurosymbolic systems. AIPLANS would provide a opportunity for them to understand how their work bridges the divide between PL theory and practice.
+        \item \textbf{Probabilistic programming researchers} would present their work which builds on a long history of extending programming paradigms (e.g. functional or logic programming) to handle learning and uncertain reasoning. AIPLANS can provide them with new insights for extending these (often symbolic) languages with primitives for expressing neural models.
+        % \item \textbf{Probabilistic programming researchers} would present advances in, e.g., Bayesian program synthesis and neurosymbolic systems. AIPLANS would provide an opportunity for them to share how their work bridges the divide between PL theory and practice.
     \end{itemize}
 
     % These three paragraphs are not that important.  If low on space, delete
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    While other workshops have explored these themes separately, few have highlighted the synergies between them. As these fields have traditionally been segregated, rediscovery of ideas was common. AD itself was invented a half dozen times over the last century and research continues to reveal unexpected connections to implicit differentiation, bilevel optimization, optimal control, stochastic processes and differential equations.  Semiring programming has existed for many decades and shares deep connections to reinforcement learning, structured inference and probabilistic programming.
+    Prior workshops~\cite{lafi2019, ptml2019, cap2020} have explored these themes separately, but few have highlighted the synergies between them and historically, many ideas have been rediscovered independently. AD itself was invented at least half dozen times over the last century~\cite{baydin2018automatic} and research continues to reveal unexpected connections to implicit differentiation~\cite{christianson1998reverse}, bilevel optimization~\cite{stadie2020learning}, optimal control~\cite{nikishin2021control}, differential equations~\cite{chen2018neural} and stochastic processes~\cite{li2020scalable}.  Semiring programming~\cite{gondran2008graphs} has existed for decades and shares deep connections to reinforcement learning~\cite{baras2010path} and probabilistic programming~\cite{belle2020semiring}.
 
     Likewise, many recently-transplanted ideas in machine learning are catechism in the programming language literature.  For example, functional and type-safe programming are lingua franca in PL circles but relatively new to Python, the primary language used in machine learning.  The duality between code and data is well-known in PL under the aegis of homoiconicity. PL theory has thought carefully about categorical semantics, process calculi, linear logic, type theory and other deeply useful concepts which remain, to this day, largely unfamiliar to the machine learning community.
 
     % In contrast, PL has long wrestled with the distinction between intensional and extensional representation, a distinction which the statistical learning community has long since reconciled through model-based learning and approximation theory.
     \pagebreak
-    Other areas where the interaction could be fruitful are tools for equivalence, proof search and metrics. A deeper understanding of programming language semantics are largely missing from neural program synthesis discussions. The connection between various forms of message passing in concurrent systems and neural science merits further investigation. New language models could enable more effective tools for natural language and assistive programming. While some of these topics remain greenfield research topics, many connections are known, but yet-to-be-translated textbook knowledge.
+%    Other areas where the interaction could be fruitful are tools for equivalence, proof search and metrics. A deeper understanding of programming language semantics are largely missing from neural program synthesis discussions. The connection between various forms of message passing in concurrent systems and neural science merits further investigation. New language models could enable more effective tools for natural language and assistive programming. While some of these topics remain greenfield research topics, many connections are known, but yet-to-be-translated textbook knowledge.
 
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm, semithick]
-            % \tikzstyle{every state}=[draw=none,text=white]
+    % \begin{figure}[H] %Remove this if low on space
+    %     \centering
+    %     \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.8cm, semithick]
+    %         % \tikzstyle{every state}=[draw=none,text=white]
 
-            \node[state]         (A)                    {PL};
-            \node[state]         (B) [right of=A]       {ML};
+    %         \node[state]         (A)                    {PL};
+    %         \node[state]         (B) [right of=A]       {ML};
 
-            \path (A) edge [bend left] node {ADs, PPLs, DSLs} (B)
-            (B) edge [bend left] node {Ideas, features, tools} (A);
-        \end{tikzpicture}
-        \caption{The virtuous cycle of machine learning and programming languages research.}
-    \end{figure}
+    %         \path (A) edge [bend left] node {ADs, PPLs, DSLs} (B)
+    %         (B) edge [bend left] node {Ideas, features, tools} (A);
+    %     \end{tikzpicture}
+    %     \caption{The virtuous cycle of machine learning and programming languages research.}
+    % \end{figure}
 
-    Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those programs to drive innovation in higher-order AD and probabilistic programming is a virtuous cycle. As researchers grow more accustomed to outsourcing low-level reasoning tasks to automatic programming systems, we anticipate cooperation between automatic and synthetic programming will continue to increase.  A joint workshop such as the one put forward in this proposal could help to facilitate yet-unrealized research connections among neighboring fields.
+    % Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those programs to drive innovation in higher-order AD and probabilistic programming is a virtuous cycle. As researchers grow more accustomed to outsourcing low-level reasoning tasks to automatic programming systems, we anticipate cooperation between automatic and synthetic programming will continue to increase.  A joint workshop such as the one put forward in this proposal could help to facilitate yet-unrealized research connections among neighboring fields.
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
     % Much work remains.
     % Similar domain-specific languages have shown progress automating inference in other logical disciplines, such as belief nets, proof nets, and related message passing schemes on tree- and graph-structured data.
 
-    % For example, functional and type-safe programming are lingua franca in PL circles but relatively new to Python, the primary language used in machine learning. PL theory has thought deeply about categorical semantics, concurrency, process calculi, linear logic, privacy and other deeply useful concepts which remain, to this day, mostly unfamiliar in the machine learning community.  Similarly, the programming language community too, has its blind spots. PL could take a page from structured inference and propagation algorithms as a medium for distributed computation.
+    % Similarly, the programming language community too, has its blind spots. PL could take a page from structured inference and propagation algorithms as a medium for distributed computation.
 
     % In exchange, we believe a great deal of progress can be achieved, in particular, between automatic and synthetic programming. For illustration, we include the following incomplete list of topics:
 
@@ -132,6 +135,19 @@
     % A description of special requirements and technical needs.
     % TODO
 
+    \section*{Workshop Logistics}
+
+    AIPLANS will be a one-day workshop hosted online, enabling an economically and geographically diverse audience to participate. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a virtual poster session. Proceedings will be non-archival. Outside of standard videoconferencing and SlidesLive assistance, we anticipate no other technical requirements. If accepted, we expect to receive a hundred or so participants, including speakers and workshop submitters, based on attendance at similarly-themed workshops in prior years.
+
+    A list of confirmed speakers (pending workshop acceptance) may be found below:
+
+    \begin{center}
+        \begin{tabular}{ l l l }
+%  Language Designer & PL Theorist & ML \\
+            Marie Kerjean (LIPN) & Joshua Tenenbaum (MIT) & Ryan Adams (Princeton) \\\\
+            Alexander Rush (Cornell) & David Duvenaud (Toronto) & ~
+        \end{tabular}
+    \end{center}
 
 
 
@@ -148,43 +164,45 @@
 
 
     % An account of the efforts made to ensure diversity of the organizers and speakers (WiML, Black in AI, and LXAI directories, among others, may be a useful resource). Also an account of any efforts to include diverse participants (e.g., via mentoring, subsidies, or the wording and topics in the CFP).
-    AIPLANS will be a single-day workshop hosted online, enabling an economically and geographically diverse audience to participate. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a virtual poster session. Proceedings will be non-archival. Outside of standard videoconferencing and SlidesLive assistance, we anticipate no other technical requirements. If accepted, we expect to receive a hundred or so participants, including speakers and workshop submitters, based on attendance at similarly-themed workshops in prior years.
-    % An estimate of the number of attendees.
 
-    Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to submit work that may be relevant to the machine learning and reasoning community, provided that effort is taken to ensure its accessibility. Special consideration will be given to didactic submissions of outstanding clarity. Further information, including evaluation criteria, examples of relevant literature, deadlines and workshop logistics will be made available in a timely manner.
+
+    Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to submit work that may be considered relevant to the machine learning and reasoning community, provided that effort is taken to ensure its accessibility. Special consideration will be given to didactic submissions of outstanding clarity. Further information, including evaluation criteria, examples of relevant literature, deadlines and workshop logistics will be made available in a timely manner.
 
     %   By submitting a workshop proposal, workshop organizers commit to notifying those who submit contributions (including talks and posters) to the workshop of their acceptance status before Oct 22, 2021. A timeline should be included in the proposal that will allow for this.
 
-    \begin{tikzpicture}[snake=zigzag, line before snake = 5mm, line after snake = 5mm]
-        % draw horizontal line
-        \draw (0,0) -- (5,0);
-        \draw[snake] (5,0) -- (7,0);
-        \draw (7,0) -- (12,0);
+    \begin{figure}[H]
+        \begin{tikzpicture}[snake=zigzag, line before snake = 5mm, line after snake = 5mm]
+            % draw horizontal line
+            \draw (0,0) -- (5,0);
+            \draw[snake] (5,0) -- (7,0);
+            \draw (7,0) -- (12,0);
 
 
-        % draw vertical lines
-        \foreach \x in {0, 2, 4, 8, 10, 12}
-        \draw (\x cm,3pt) -- (\x cm,-3pt);
+            % draw vertical lines
+            \foreach \x in {0, 2, 4, 8, 10, 12}
+            \draw (\x cm,3pt) -- (\x cm,-3pt);
 
-        % draw nodes
+            % draw nodes
 
-        \draw (0,0) node[below=3pt] {Jun. 18\textsuperscript{th}} node[above=3pt] {};
-        \draw (1,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Proposal submitted \end{turn} $};
-        \draw (2,0) node[below=3pt] {Jul. 23\textsuperscript{rd}} node[above=3pt] {};
+            \draw (0,0) node[below=3pt] {Jun. 18\textsuperscript{th}} node[above=3pt] {};
+            \draw (1,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Proposal submitted \end{turn} $};
+            \draw (2,0) node[below=3pt] {Jul. 23\textsuperscript{rd}} node[above=3pt] {};
 
-        \draw (2.8,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  CFP announced \end{turn} $};
-        \draw (4,0) node[below=3pt] {Sept. 24\textsuperscript{th}} node[above=3pt] {};
-        \draw (4.6,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  CFP closes \end{turn} $};
-        \draw (6,0) node[below=3pt] {} node[above=3pt] {$ Reviewing $};
-        \draw (8,0) node[below=3pt] {Oct. 22\textsuperscript{nd}} node[above=3pt] {};
-        \draw (8.8,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Notifications sent \end{turn} $};
-        \draw (10,0) node[below=3pt] {Nov. 14\textsuperscript{th}} node[above=3pt] {};
-        \draw (10.9,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Schedule finalized \end{turn} $};
-        \draw (12,0) node[below=3pt] {Dec. 14\textsuperscript{th}} node[above=3pt] {};
-        \draw (12.5,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40} Workshop \end{turn} $};
-    \end{tikzpicture}
+            \draw (2.8,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  CFP announced \end{turn} $};
+            \draw (4,0) node[below=3pt] {Sept. 24\textsuperscript{th}} node[above=3pt] {};
+            \draw (4.6,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  CFP closes \end{turn} $};
+            \draw (6,0) node[below=3pt] {} node[above=3pt] {$ Reviewing $};
+            \draw (8,0) node[below=3pt] {Oct. 22\textsuperscript{nd}} node[above=3pt] {};
+            \draw (8.8,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Notifications sent \end{turn} $};
+            \draw (10,0) node[below=3pt] {Nov. 14\textsuperscript{th}} node[above=3pt] {};
+            \draw (10.9,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Schedule finalized \end{turn} $};
+            \draw (12,0) node[below=3pt] {Dec. 14\textsuperscript{th}} node[above=3pt] {};
+            \draw (12.5,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40} Workshop \end{turn} $};
+        \end{tikzpicture}
+        \caption{A tentative timeline for the workshop.}
+    \end{figure}
 
-    If accepted, AIPLANS will announce its CFP and pursue contributions from the broader ML/PL community shortly thereafter. Two months later, the CFP will close on Sept. 24\textsuperscript{th}. This deadline may be extended to no later than Oct. 1\textsuperscript{st}, depending on the volume of submissions received, leaving sufficient time for referees and program chairs to leave feedback. Authors will be notified of acceptance no later than Oct. 22\textsuperscript{nd}. We intend to finalize the schedule and coordinate presentation logistics between Nov. and Dec. 14\textsuperscript{th}. Those who wish to prerecord talks will be given an opportunity to do so. The final workshop will consist of prerecorded and live talks with Q\&A, followed by a moderated panel, and virtual poster session hosted on GatherTown. Further details about schedule and logistics will be made available, pending acceptance at: \url{https://aiplans.github.io/}.
+    If accepted, AIPLANS will announce its CFP and pursue contributions from the broader ML/PL community shortly thereafter. Two months later, the CFP will close on Sept. 17\textsuperscript{th}. This deadline may be extended to no later than Sept. 24\textsuperscript{th}, depending on the volume of submissions received, leaving sufficient time for referees and program chairs to leave feedback. Authors will be notified of acceptance no later than Oct. 22\textsuperscript{nd}. We intend to finalize the schedule and coordinate presentation logistics between Nov. and Dec. 14\textsuperscript{th}. Those who wish to prerecord talks will be given an opportunity to do so. The final workshop will consist of prerecorded and live talks with Q\&A, followed by a moderated panel, and virtual poster session hosted on GatherTown. Further details about schedule and logistics will be made available, pending acceptance at: \url{https://aiplans.github.io/}.
 
     AIPLANS is an equal-opportunity workshop that celebrates cultural, linguistic, ethnic and intellectual diversity in all forms. Not only are we committed to nondiscrimination on the basis of, e.g., race, creed, age, gender, orientation, physical or mental handicap, but also aim to encourage individuals from other disadvantaged and underrepresented socioeconomic backgrounds to participate. Should our workshop be accepted, scholarships covering the cost of registration will be extended for those who wish to attend but would otherwise be unable to do so due to financial hardship.
 
@@ -192,62 +210,60 @@
     \newpage
 
 
-    \section*{Organizers}\vspace{-0.5cm}
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/breandan}
-        \end{wrapfigure}
-        \textbf{Breandan Considine} is a Ph.D. student at McGill University supervised by Jin Guo. His research studies the relationship between software and machine learning, reasoning about the behavior of real-world programs and using those insights to build more intelligent programming tools for developers. This year, he co-organized the ICLR workshop, \href{https://rethinkingmlpapers.github.io/}{Rethinking ML Papers}. Previously, Breandan obtained his Master's degree from the Universit\'e de Montr\'eal, where he studied differentiable programming and software engineering. He is enthusiastic about AI as a tool for augmenting human reasoning and eager to help bring together the programming language and machine learning communities.\\
-        \faHome: \url{https://breandan.github.io/} \faTwitter: \href{https://twitter.com/breandan}{@breandan}
-    \end{figure}
+    \section*{Workshop Organizers}\vspace{-0.5cm}
+    \begin{table}[h!]
+        \begin{center}
+            \begin{tabular}{ c p{10.5cm}}
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/breandan}} & \textbf{Breandan Considine} is a Ph.D. student at McGill University co-supervised by Jin Guo and Xujie Si. His research studies how to reason about the behavior of real-world programs and use those insights to build more intelligent programming tools for developers. This year, he organized the \href{https://compcalc.github.io/}{Computer Calculus RG} and co-organized the ICLR workshop, \href{https://rethinkingmlpapers.github.io/}{Rethinking ML Papers}. Breandan is enthusiastic about AI as a tool for augmenting human reasoning and eager to help bring together PL and ML researchers at AIPLANS. \vspace*{0.1cm}\newline \faHome \url{https://breandan.github.io} \faTwitter \href{https://twitter.com/breandan}{@breandan} \\\\\\
 
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/disha}
-        \end{wrapfigure}\textbf{Disha Shrivastava} is a Ph.D. student at Mila, working with Hugo Larochelle and Danny Tarlow. She also works part-time at Google Brain, Montreal as a Student Researcher. Earlier, she worked at IBM Research, India as a Research Software Engineer for two years on unsupervised construction of knowledge graphs, metrics for computational creativity and topical coherence. Disha's current research studies code representation learning, program synthesis, meta-learning, out-of-distribution generalization, structured prediction with discrete latent variables and reasoning-based systems for QA tasks. She has co-organized the \href{https://creativeai.mybluemix.net/}{Machine Learning for Creativity workshop} at KDD 2017.\\
-        \faHome: \url{https://shrivastavadisha.github.io/} \faTwitter: \href{https://twitter.com/DishaShrivasta9}{@DishaShrivasta9}
-    \end{figure}
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/disha}} & \textbf{Disha Shrivastava} is a Ph.D. student at Mila, working with Hugo Larochelle and Danny Tarlow. She also works part-time at Google Brain, Montreal as a Student Researcher. Earlier, she worked at IBM Research, India as a Research Software Engineer for two years on unsupervised construction of knowledge graphs, metrics for computational creativity and topical coherence. Disha's current research studies code representation learning, program synthesis, meta-learning, out-of-distribution generalization, structured prediction with discrete latent variables and reasoning-based systems for QA tasks. She has co-organized the \href{https://creativeai.mybluemix.net/}{ML for Creativity workshop} at KDD 2017. \vspace*{0.1cm}\newline \faHome \url{https://shrivastavadisha.github.io} \faTwitter \href{https://twitter.com/DishaShrivasta9}{@DishaShrivasta9} \\\\\\
 
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/david}
-        \end{wrapfigure}\textbf{David Yu-Tung Hui} is a M.Sc. student at Mila, Universit\'e de Montr\'eal, co-advised by Pierre-Luc Bacon and Aaron Courville.  David researches the design of software enabling (robotic) agents to follow procedural instructions in natural language or code.  He helped develop the BabyAI environment to investigate instruction following and helps maintain the code repository on GitHub.
-        % David is looking forward to meeting the creators of JaX at AIPLANS and to better understand how logical statements describing an RL environment could be expressed in an AD framework.
-        \\
-        \faHome: \url{https://dyth.github.io/} \faTwitter: \href{https://twitter.com/dythui}{@dythui}
-    \end{figure}
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/david}} & \vspace*{0.2cm}\textbf{David Yu-Tung Hui} is a M.Sc. student at Mila, Universit\'e de Montr\'eal, co-advised by Pierre-Luc Bacon and Aaron Courville.  David researches the design of software enabling (robotic) agents to follow procedural instructions in natural language or code.  He helped develop the BabyAI environment to investigate instruction following and helps maintain the \href{https://github.com/mila-iqia/babyai}{GitHub repository}.
+                % David is looking forward to meeting the creators of JaX at AIPLANS and to better understand how logical statements describing an RL environment could be expressed in an AD framework.
+                \vspace*{0.1cm}\newline\faHome \url{https://dyth.github.io/} \faTwitter \href{https://twitter.com/dythui}{@dythui}\\\\\\
 
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/chin-wei}
-        \end{wrapfigure}
-        \textbf{Chin-Wei Huang} is a Ph.D. student at the Montr\'eal Institute for Learning Algorithms (MILA), advised by Aaron Courville. He works on deep latent variable models and efficient algorithms for approximate inference. He primarily focuses on improving the expressiveness of deep probabilistic models, the optimization process of inference, and understanding the training dynamics of generative models in general. Chin-Wei is also interested in meta learning, statistical learning theory and reinforcement learning. He has previous experience organizing the \href{https://invertibleworkshop.github.io/}{Workshop on Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models} at ICML for the past three years.\\
-        \faHome: \url{https://chinweihuang.com/} \faTwitter: \href{https://twitter.com/chinwei_h}{@chinwei\_h}
-    \end{figure}
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/chin-wei}} & \textbf{Chin-Wei Huang}
+                is a Ph.D. candidate at Mila, Universit\'e de Montr\'eal.
+                He primarily works on likelihood-based generative models and efficient algorithms for approximate inference.
+                % He primarily focuses on improving the expressiveness of deep probabilistic models, the optimization process of inference, and understanding the training dynamics of generative models in general.
+                He is the lead organizer of the \href{https://invertibleworkshop.github.io/}{Workshop on Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models} at ICML (2019-2021) and has contributed to the development of efficient likelihood and unbiased gradient estimation of \href{https://arxiv.org/abs/2012.05942}{Convex Potential Flows} and \href{https://arxiv.org/abs/2106.02808}{Score-Based Diffusion Models} using automatic differentiation. \vspace*{0.1cm}\newline\faHome \url{https://chinweihuang.com} \faTwitter \href{https://twitter.com/chinwei_h}{@chinwei\_h}\\\\\\
 
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/shawn}
-        \end{wrapfigure}
-        \textbf{Shawn Tan} is a Ph.D. student at Universit\'e de Montr\'eal.
-        Previously, Shawn worked as a data engineer at Semantics3 in San Francisco, and then as a research assistant at the National University of Singapore (NUS). He is currently at the Montr\'eal Institute of Learning Algorithms (MILA).\\
-        \faHome: \url{http://blog.wtf.sg/} \faTwitter: \href{https://twitter.com/tanshawn}{@tanshawn}
-    \end{figure}
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/shawn}} & \vspace*{0.4cm}\textbf{Shawn Tan} is a Ph.D. candidate at Mila, Universit\'e de Montr\'eal.
+                He is interested in differentiable methods for structured prediction, specifically in the domain of natural language.
+                He co-authored the Ordered Neurons paper which won best paper at ICLR 2019. \vspace*{0.1cm}\newline \faHome \url{http://blog.wtf.sg} \faTwitter \href{https://twitter.com/tanshawn}{@tanshawn}\\\\\\
+
+                %   \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/behrouz}} & \textbf{Behrouz Babaki} is a postdoc at Mila and HEC Montreal, working with professor Laurent Charlin and professor Sanjay Jena. Prior to that, he was a postdoc at the Quosseca lab in Polytechnique Montreal, where he worked with professor Gilles Pesant. Behrouz completed his PhD studies in the Machine Learning group at KU Leuven, under the supervision of professor Luc De Raedt and professor Tias Guns. His main areas of interests are combinatorial optimization and probabilistic reasoning. \newline\faHome \url{https://behrouz-babaki.github.io/} \faTwitter \href{https://twitter.com/BehrouzBabaki}{@BehrouzBabaki}\\\\
+
+            \end{tabular}
+        \end{center}
+    \end{table}
+
 
     \pagebreak
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/xujie}
-        \end{wrapfigure}
-        \textbf{Xujie Si} is an Assistant Professor and Canada CIFAR AI Chair in the School of Computer Science at McGill University and at Mila - Quebec AI Institute. He finished his Ph.D. in Computer and Information Science at the University of Pennsylvania in 2020, advised by Prof. Mayur Naik. Xujie received my M.S. in computer science from Vanderbilt University in 2014, before which he obtained his B.E. (with Honors) from Nankai Unversity in 2011. He spent the summer of 2019 as a research scientist intern at DeepMind working with Pushmeet Kohli in the Robust AI team.\\
-        \faHome: \url{https://www.cs.mcgill.ca/~xsi/} \faTwitter: \href{https://twitter.com/xujiesi}{@XujieSi}
-    \end{figure}
 
-    \begin{figure}[H]
-        \begin{wrapfigure}{l}{0.2\textwidth}
-            \includegraphics[width=0.2\textwidth]{organizers/prakash}
-        \end{wrapfigure}
-        \textbf{Prakash Panangaden} is a Professor at McGill University. He has three research areas: (a) semantics and logics for probabilistic systems and languages (b) machine learning and (c) quantum information theory. His research studies the approximation of continuous-state systems and associated metrics and logics. He is working on a quantitative extension of equational logic which allows one to carry out approximate reasoning equationally. Prakash is also interested in duality for automata and using it for minimization and recently has begun working on diffusion and similar continuous-time Markov processes.\\
-        \faHome: \url{https://www.cs.mcgill.ca/~prakash/} \faTwitter: \href{https://twitter.com/prakash127}{@prakash127}
-    \end{figure}
+    \section*{Program Committee}
+
+
+    \begin{table}[h!]
+        \begin{center}
+            \begin{tabular}{ c p{10.5cm}}
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/prakash}} & \textbf{Prakash Panangaden} is a Professor at McGill University. He has three research areas: (a) semantics and logics for probabilistic systems and languages (b) machine learning and (c) quantum information theory. His research studies the approximation of continuous-state systems and associated metrics and logics. He is working on a quantitative extension of equational logic for approximate equational reasoning. Prakash is also interested in duality for automata and using it for minimization. He has recently begun working on diffusion and similar continuous-time Markov processes.
+                \vspace*{0.1cm}\newline \faHome \url{https://www.cs.mcgill.ca/~prakash} \faTwitter \href{https://twitter.com/prakash127}{@prakash127} \\\\\\
+
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/xujie}} &\textbf{Xujie Si} is an Assistant Professor and Canada CIFAR AI Chair in the School of Computer Science at McGill University and at Mila - Quebec AI Institute. He finished his Ph.D. in Computer and Information Science at the University of Pennsylvania in 2020, advised by Prof. Mayur Naik. Xujie received his M.S. in computer science from Vanderbilt University in 2014, before which he obtained his B.E. (with Honors) from Nankai Unversity in 2011. He spent the summer of 2019 as a research scientist intern at DeepMind working with Pushmeet Kohli in the Robust AI team. \vspace*{0.1cm}\newline \faHome \url{https://www.cs.mcgill.ca/~xsi} \faTwitter \href{https://twitter.com/xujiesi}{@XujieSi} \\\\\\
+
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/stefan}} & \textbf{Stefan Monnier} is interested in the design and implementation of strongly typed programming languages. He sees a future where all programming is done in type safe languages or in assembly supplemented with safety proofs. He is also interested in investigating what such a future means in terms of how we distribute the work between compilers, runtime systems, operating systems and computer architecture.  For this reason Stefan's main focus has been at the intersection between type-safety and memory-management. \vspace*{0.1cm}\newline \faHome \url{https://www.iro.umontreal.ca/~monnier/} \\\\\\
+
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/danny}} & \textbf{Danny Tarlow} is a Research Scientist at the Google Brain team in Montreal. He is primarily interested in machine learning methods for understanding and generating programs, but has broad interests across Machine Learning. Danny is also an Adjunct Professor in the School of Computer Science at McGill University and an associate member at Mila, where he co-supervises a couple PhD students. He holds a PhD from the Machine Learning group at University of Toronto (2013) and before coming to Montreal, spent four years as a postdoc and then researcher at Microsoft Research, Cambridge. \vspace*{0.1cm}\newline \faHome \url{https://research.google/people/DannyTarlow} \faTwitter \href{https://twitter.com/dtarlow2}{@dtarlow2}\\\\\\
+
+                \raisebox{-\totalheight}{\includegraphics[width=0.2\textwidth]{organizers/guy}} & \textbf{Guy Van den Broeck} is an Associate Professor and Samueli Fellow at UCLA, in the Computer Science Department, where he directs the Statistical and Relational Artificial Intelligence (StarAI) lab. His research interests are in Machine Learning (Statistical Relational Learning, Tractable Learning), Knowledge Representation and Reasoning (Graphical Models, Lifted Probabilistic Inference, Knowledge Compilation), Applications of Probabilistic Reasoning and Learning (Probabilistic Programming, Probabilistic Databases), and Artificial Intelligence in general. \vspace*{0.1cm}\newline \faHome \url{https://web.cs.ucla.edu/~guyvdb} \faTwitter \href{https://twitter.com/guyvdb}{@guyvdb}
+
+            \end{tabular}
+        \end{center}
+    \end{table}
+
+    \pagebreak
+    \bibliography{workshop}
+    \bibliographystyle{plain}
+
 \end{document}
