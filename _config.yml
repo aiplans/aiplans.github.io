@@ -64,6 +64,8 @@ collections:
     output: true
   organizers:
     output: true
+  chairs:
+    output: true
   schedule:
     sort_by: sequence_id
     output: true
