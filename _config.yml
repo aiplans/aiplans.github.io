@@ -52,7 +52,6 @@ header_pages:
 # A two-line attribution (remove this if you have to, but we'd appreciate if you leave this as is)
 attribution: >
   Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>.
-  Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
 
 # Displays a "last updated" date in the footer if set to "true"
 last_updated: true
