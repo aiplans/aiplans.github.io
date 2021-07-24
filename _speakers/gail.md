@@ -11,5 +11,5 @@ affil: Technion - Israel Institute of Technology
 affil_link: https://www.technion.ac.il/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
-img: gail.jpg
+img: gail.png
 ---
