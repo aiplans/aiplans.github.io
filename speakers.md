@@ -1,5 +1,5 @@
-<!------->
-<!--layout: speakers-->
-<!--title: Speakers-->
-<!--permalink: /speakers/-->
-<!------->
+---
+layout: speakers
+title: Speakers
+permalink: /speakers/
+---
