@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Workshop proposal for NeurIPS 2021.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
+twitter_username: createaiplans
 github_username:  aiplans
 
 # Build settings
@@ -36,11 +36,11 @@ plugins:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - index.md
-#- speakers.md
+- speakers.md
 - organizers.md
 - chairs.md
 - callforpapers.md
-#- schedule.md
+- schedule.md
 #- papers.md
 #- contactus.md
 
