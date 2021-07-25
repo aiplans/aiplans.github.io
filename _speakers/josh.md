@@ -6,7 +6,7 @@ name: Joshua Tenenbaum
 webpage: https://mitibmwatsonailab.mit.edu/people/joshua-tenenbaum/
 
 # Primary affiliation of the speaker
-affil: Massassachusetts Institute of Technology
+affil: Massachusetts Institute of Technology
 # Link to the speaker's primary affiliation
 affil_link: https://mitibmwatsonailab.mit.edu/
 
