@@ -6,5 +6,5 @@ affil: Laboratoire d'Informatique de Paris Nord
 affil_link: https://lipn.univ-paris13.fr/
 img: marie.png
 title: Invited Talk
-time: 0900 - 1000
+time: 0800 - 0900
 ---

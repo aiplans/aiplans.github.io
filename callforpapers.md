@@ -11,11 +11,11 @@ We invite all students, researchers, language designers and AI practitioners to 
 
 AIPLANS has four important dates to keep in mind:
 
-**Paper submission deadline**: Sept 24th, 2021 11:59pm (Anywhere on **Earth, AoE)
+**Paper submission deadline**: Sept 24th, 2021 AoE
 
 **Reviews released**: Oct. 23rd, 2021
 
-**Camera-ready deadline**: Dec 10, 2021 11:59pm (AoE)
+**Camera-ready deadline**: Dec 10, 2021 AoE
 
 **Tentative conference dates**: Dec 13th or 14th, 2021
 

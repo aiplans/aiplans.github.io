@@ -6,5 +6,5 @@ affil: Technion - Israel Institute of Technology
 affil_link: https://sgailw.cswp.cs.technion.ac.il/
 img: gail.png
 title: Invited Talk
-time: 0800 - 0900
+time: 0700 - 0800
 ---
