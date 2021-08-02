@@ -7,12 +7,13 @@ title: Home
 layout: home
 ---
 
-Advances in Programming Languages and Neurosymbolic Systems (AIPLANS) is a new workshop highlighting advances in programming langauge and machine learning research. We are particularly interested in languages and tools for automatic programming, logical reasoning and program synthesis. We believe that developing neurosymbolic systems for automatic program synthesis will require insights from both statistical learning and programming language research, and encourage researchers working in the following areas to participate:
+Advances in Programming Languages and Neurosymbolic Systems (AIPLANS) is a new workshop at NeurIPS 2021 highlighting advances in programming language and machine learning research, such as languages and tools for automatic programming, logical reasoning and program synthesis. We believe developing neurosymbolic systems will require insights from both statistical learning and programming language research, and encourage researchers working in the following areas to participate:
 
-* **Machine learning** researchers can present advances in meta-learning, reinforcement learning and program synthesis. AIPLANS offers these participants an opportunity to share their research and learn about new automatic programming languages and techniques for inference.
-* **Language designers** can give insight into the design and implementation of automatic programming languages and DSLs. AIPLANS would offer them the opportunity to discuss the language design and engage with their users.  
-* **PL theorists** can present fundamental theory of mechanical reasoning and automatic programming languages, such as functional, semiring or array programming. AIPLANS would help them bridge the gap between theory and practice, and gain insight into the capabilities and limitations of machine learning technology.
-* **Probabilistic programming** researchers can present progress in a long history of extending programming paradigms (e.g. functional or logic programming) to handle learning under uncertainty. AIPLANS would provide them with new insights for extending these (often symbolic) languages with primitives for expressing neural models.
+* **Machine learning researchers** can present advances in meta-learning, reinforcement learning and program synthesis. AIPLANS offers these participants an opportunity to share their research and learn about new automatic programming languages and techniques for inference.
+* **Language designers** can give insight into the design and implementation of automatic programming languages and DSLs. AIPLANS would offer them the opportunity to discuss the language design and engage with their users.
+* **Programming language theorists** can present fundamental theory of mechanical reasoning and automatic programming languages, such as functional, semiring or array programming. AIPLANS would help them bridge the gap between theory and practice, and gain insight into the capabilities and limitations of machine learning technology.
+
+[comment]: <> (* **Probabilistic programming** researchers can present progress in a long history of extending programming paradigms &#40;e.g. functional or logic programming&#41; to handle learning under uncertainty. AIPLANS would provide them with new insights for extending these &#40;often symbolic&#41; languages with primitives for expressing neural models.)
 
 [comment]: <> (Automatic differentiation libraries and frameworks have enabled much progress in gradient-based learning over the last decade. Recent domain-specific languages for automatic programming hold the promise of unleashing similar progress in other logical disciplines e.g., belief nets, proof nets, and related message passing schemes on tree- and graph-structured data. Concurrently, machines have made steady progress in representing and synthesizing programs. Other workshops have explored these themes separately, yet few have highlighted the synergies between automatic and synthetic programming.)
 
@@ -22,8 +23,6 @@ Advances in Programming Languages and Neurosymbolic Systems (AIPLANS) is a new w
 
 Our workshop is designed to be as inclusive as possible towards researchers of various backgrounds working on automated learning and reasoning in programming languages and neurosymbolic systems. For illustration, we include the following non-exhaustive list of topics:
 
-* Differentiable programming / algorithmic differentiation
-* Probabilistic programming / statistical inference
 * Declarative programming / constraint programming
 * Dynamic programming / reinforcement learning
 * Functional programming / λ-calculus
@@ -35,4 +34,6 @@ Our workshop is designed to be as inclusive as possible towards researchers of v
 * Domain-specific languages and compilers
 * Inductive programming / programming by example
 
-We particularly encourage developers of languages, frameworks and libraries to submit their ongoing work for evaluation. Those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting theoretical work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics can be found under the [AIPLANS CFP](callforpapers.md).
+Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting ongoing work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics can be found under the [AIPLANS CFP](callforpapers.md).
+
+AIPLANS is brought to you in collaboration with the organizers of the [Differentiable Programming Workshop](https://diffprogramming.mit.edu/) at NeurIPS 2021. We share their enthusiasm for differentiable and probabilistic programming and see many applications towards program synthesis and symbolic reasoning. Those with similar interests are highly encouraged to participate in both workshops. Prospective authors should submit their work to the most relevant venue, as dual submissions will be evaluated once.
