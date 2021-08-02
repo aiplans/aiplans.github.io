@@ -1,6 +1,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
 
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@{{ site.twitter_username }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+<meta name="twitter:card"  content="{{ site.description }}">
+<meta name="twitter:image" content="assets/favicon.png">
+<!-- end of Twitter cards -->
+
 <header class="site-header">
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
