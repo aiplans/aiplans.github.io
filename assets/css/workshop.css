@@ -96,3 +96,18 @@ span.award-other img {
   padding-top: 0;
   padding-bottom: 8px;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
