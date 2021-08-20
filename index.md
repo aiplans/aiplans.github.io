@@ -3,11 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: AIPLANS: Advances in Programming Languages and Neurosymbolic Systems
 layout: home
 ---
 
-Advances in Programming Languages and Neurosymbolic Systems (AIPLANS) is a new workshop at NeurIPS 2021 highlighting advances in programming language and machine learning research, such as languages and tools for automatic programming, logical reasoning and program synthesis. We believe developing neurosymbolic systems will require insights from both statistical learning and programming language research, and encourage researchers working in the following areas to participate:
+AIPLANS: a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
+
+Our workshop brings together researchers from various backgrounds.  We believe developing neurosymbolic systems will require engineers, designers and theorists from statistical learning and programming language research.
 
 * **Machine learning researchers** can present advances in meta-learning, reinforcement learning and program synthesis. AIPLANS offers these participants an opportunity to share their research and learn about new automatic programming languages and techniques for inference.
 * **Programming language designers** can give insight into the design and implementation of automatic programming languages and DSLs. AIPLANS offers them the opportunity to gather feedback about design choices, promote the language and engage with their users.
@@ -21,8 +23,13 @@ Advances in Programming Languages and Neurosymbolic Systems (AIPLANS) is a new w
 
 [comment]: <> (Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those same programs to drive innovation in higher-order AD and probabilistic programming is a now virtuous cycle. We envision cooperation between automatic and synthetic programming will continue to grow as researchers become more accustomed to outsourcing low-level reasoning tasks to these systems.)
 
-Our workshop is designed to be as inclusive as possible towards researchers of various backgrounds working on automated learning and reasoning in programming languages and neurosymbolic systems. For illustration, we include the following non-exhaustive list of topics:
+<!-- 
+automatic programming
+logical reasoning
+program synthesis
+programming languages -->
 
+For illustration, we include the following non-exhaustive list of topics:
 * Declarative programming / constraint programming
 * Dynamic programming / reinforcement learning
 * Functional programming / λ-calculus
@@ -36,4 +43,4 @@ Our workshop is designed to be as inclusive as possible towards researchers of v
 
 Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting ongoing work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics can be found under the [AIPLANS CFP](callforpapers.md).
 
-AIPLANS is brought to you in collaboration with the organizers of the [Differentiable Programming Workshop](https://diffprogramming.mit.edu/) at NeurIPS 2021. We share their enthusiasm for differentiable and probabilistic programming and see many applications towards program synthesis and symbolic reasoning. Those with similar interests are highly encouraged to participate in both workshops. Prospective authors should submit their work to the most relevant venue, as dual submissions will be evaluated once.
+AIPLANS is brought to you in collaboration with the organizers of the [Differentiable Programming Workshop](https://diffprogramming.mit.edu/) at NeurIPS 2021. We share their enthusiasm for differentiable and probabilistic programming and see many applications towards program synthesis and symbolic reasoning. Those with similar interests are highly encouraged to participate in both workshops.  Prospective authors should submit their work to the most relevant venue, as dual submissions will be evaluated once.
