@@ -28,9 +28,9 @@ Submissions are limited to four-page double-column NeurIPS-formatted pages, plus
 
 Paper should be formatted according to the follow LaTeX template: [https://aiplans.github.io/assets/cfp/aiplans2021template.zip](https://aiplans.github.io/assets/cfp/aiplans2021template.zip)
 
-The OpenReview submission portal will be opened 4-6 weeks before the submission deadline. Submitted papers are to be evaluated in a single round of double-blind peer-review, with no author rebuttal necessary. All accepted papers will be presented at the workshop as either contributed talks or as posters.
+The OpenReview submission portal will be opened 4-6 weeks before the submission deadline. Submitted papers are to be evaluated in a single round of double-blind peer-review, with no author rebuttal necessary. All accepted papers will be presented at the workshop as either contributed talks or as posters. Outstanding submissions will be considered for oral presentation as a contributed talk.
 
-AIPLANS does not permit dual submission. Any submissions discovered to have been previously published or simultaneously submitted to another conference, journal or workshop during the AIPLANS review cycle will be summarily desk rejected. Outstanding submissions will be considered for oral presentation as a contributed talk.
+AIPLANS permits dual submission to another conference, journal or workshop during the AIPLANS review cycle.
 
 Please direct any questions about the above information to the [AIPLANS organizers](/organizers) who may be contacted via email: `aiplans2021 at gmail dot com`.
 
