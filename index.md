@@ -3,13 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: home
+title: Home
 layout: home
 ---
 
-# AIPLANS: Advances in Programming Languages and Neurosymbolic Systems
+<!-- # AIPLANS: Advances in Programming Languages and Neurosymbolic Systems -->
 
-AIPLANS: a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
+AIPLANS (Advances in Programming Languages and Neurosymbolic Systems): a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
 
 * **Paper submission deadline**: Sept 24th, 2021 AoE
 * **Reviews released**: Oct. 23rd, 2021
