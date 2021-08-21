@@ -24,7 +24,7 @@ Authors are strongly encouraged to submit early and often, as due to scheduling 
 
 We invite papers that describe new or existing theory, methodology and/or applications related to automated learning and reasoning in the fields of programming languages and artificial intelligence. Submitted papers will be evaluated based on their (1) technical quality (2) clarity and (3) potential impact. We also encourage submissions describing novel programming languages or software implementations.
 
-Submissions are limited to four-page double-column NeurIPS-formatted pages, plus unlimited additional pages for references and appendices. Authors may optionally submit a single file of supplementary material, such as a PDF (e.g. containing proof details) or a ZIP file containing e.g. code or other artifacts. Reviewers will be allowed but not obliged to consider supplementary material.
+Submissions are limited to four double-columned NeurIPS-formatted pages, plus unlimited additional pages for references and appendices. Authors may optionally submit a single file of supplementary material, such as a PDF (e.g. containing proof details) or a ZIP file containing e.g. code or other artifacts. Reviewers will be allowed but not obliged to consider supplementary material.
 
 Paper should be formatted according to the follow LaTeX template: [https://aiplans.github.io/assets/cfp/aiplans2021template.zip](https://aiplans.github.io/assets/cfp/aiplans2021template.zip)
 
