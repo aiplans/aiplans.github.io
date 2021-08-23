@@ -6,6 +6,8 @@ permalink: /callforpapers/
 
 We invite all students, researchers, language designers and AI practitioners to take part in the first annual workshop on Advances in Programming Languages and Neurosymbolic Systems (AIPLANS), to be held Dec. 13th or 14th at NeurIPS 2021. AIPLANS welcomes submissions relevant to the fields of programming language and machine learning research. Authors who traditionally publish in venues such as SIGPLAN, SIGSOFT and other ACM venues are especially encouraged to submit work that may be relevant to the machine learning and reasoning community, provided that effort is taken to ensure its accessibility. Didactic submissions of outstanding clarity and reproducibility will be given special consideration.
 
+When you are ready to submit, please do so using the following URL: [https://openreview.net/group?id=NeurIPS.cc/2021/Workshop/AIPLANS](https://openreview.net/group?id=NeurIPS.cc/2021/Workshop/AIPLANS)
+
 # Key Dates
 
 AIPLANS has four important dates to keep in mind:
@@ -28,7 +30,7 @@ Submissions are limited to four double-columned NeurIPS-formatted pages, plus un
 
 Paper should be formatted according to the follow LaTeX template: [https://aiplans.github.io/assets/cfp/aiplans2021template.zip](https://aiplans.github.io/assets/cfp/aiplans2021template.zip)
 
-The OpenReview submission portal will be opened 4-6 weeks before the submission deadline. Submitted papers are to be evaluated in a single round of double-blind peer-review, with no author rebuttal necessary. All accepted papers will be presented at the workshop as either contributed talks or as posters. Outstanding submissions will be considered for oral presentation as a contributed talk.
+Submitted papers are to be evaluated in a single round of double-blind peer-review, with no author rebuttal necessary. All accepted papers will be presented at the workshop as either contributed talks or as posters. Outstanding submissions will be considered for oral presentation as a contributed talk.
 
 AIPLANS permits dual submission to another conference, journal or workshop during the AIPLANS review cycle.
 
