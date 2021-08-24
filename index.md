@@ -31,14 +31,8 @@ Our workshop brings together researchers from various backgrounds.  We believe d
 
 [comment]: <> (Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those same programs to drive innovation in higher-order AD and probabilistic programming is a now virtuous cycle. We envision cooperation between automatic and synthetic programming will continue to grow as researchers become more accustomed to outsourcing low-level reasoning tasks to these systems.)
 
-<!-- 
-automatic programming
-logical reasoning
-program synthesis
-programming languages -->
-
-For illustration, we include the following non-exhaustive list of topics:
-* Declarative programming / constraint programming
+We would be excited to see submissions similar to or building on the following non-exhaustive list of topics:
+<!-- * Declarative programming / constraint programming
 * Dynamic programming / reinforcement learning
 * Functional programming / λ-calculus
 * Array programming / linear algebra
@@ -48,6 +42,21 @@ For illustration, we include the following non-exhaustive list of topics:
 * Computer aided reasoning / automatic theorem proving
 * Domain-specific languages and compilers
 * Inductive programming / programming by example
+ -->
+* Algorithms for automatic differentiation and inference in ML systems:
+  * [Categorical Foundations of Gradient-Based Learning](https://arxiv.org/abs/2103.01931)
+* Design of tools for automatic differentiation:
+  * New features in [JaX](https://github.com/google/jax), [DeX](https://github.com/google-research/dex-lang)
+* Development of neurosymbolic based reasoning systems:
+  * Works that build on [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
+* Program synthesis:
+  * Improvements to [RobustFill](https://arxiv.org/abs/1703.07469), [DeepCoder](https://arxiv.org/abs/1611.01989) or applications such as [Naturalizing A Programming Language Via Interactive Learning](https://arxiv.org/pdf/1704.06956.pdf)
+* Probabilistic Programming:
+  * [Deep Probabilistic Programming](https://arxiv.org/abs/1701.03757), [Stochastic Processes as Concurrent Constraint Programs](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.7979&rep=rep1&type=pdf)  
+* Theory of mechanical reasoning and automatic programming languages:
+  * Works which explain the interplay between neural networks and programming methods [Dynamical systems that sort lists, diagonalize matrices and solve linear programming problems](http://hrl.harvard.edu/publications/brockett88dynamical.pdf), [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
+  * Semiring Programming, [torch-struct](https://arxiv.org/abs/2002.00876) 
+  * Functional or array programming [Hasktorch](https://github.com/hasktorch/hasktorch), [Strongly-Typed RNNs](https://arxiv.org/abs/1602.02218), [Tangent](https://arxiv.org/abs/1809.09569)
 
 Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting ongoing work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics can be found under the [AIPLANS CFP](callforpapers.md).
 
