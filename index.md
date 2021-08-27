@@ -34,9 +34,10 @@ Our workshop brings together researchers from various backgrounds.  We believe d
 We would be excited to see submissions similar to or building on the following non-exhaustive list of topics:
 
 * Algorithms for automatic differentiation and inference in ML systems:
+  * [Inside-Outside and Forward-Backward Algorithms](https://www.cs.jhu.edu/~jason/papers/eisner.spnlp16.pdf)
   * [Categorical Foundations of Gradient-Based Learning](https://arxiv.org/abs/2103.01931)
 * Design of tools for automatic differentiation:
-  * New features in [JaX](https://github.com/google/jax), [DeX](https://github.com/google-research/dex-lang)
+  * New features in [JAX](https://github.com/google/jax), [Dex](https://github.com/google-research/dex-lang)
 * Development of neurosymbolic based reasoning systems:
   * Works that build on [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
 * Program synthesis:
@@ -50,14 +51,13 @@ We would be excited to see submissions similar to or building on the following n
 * Declarative programming / constraint programming
   * e.g. Neural program synthesis, neural guided program search
 * Dynamic programming / reinforcement learning
-  * e.g. Semiring programming, probabilistic reasoning
+  * e.g. [Semiring programming](https://arxiv.org/pdf/1609.06954.pdf), [probabilistic programming](https://arxiv.org/pdf/2005.09089v3.pdf)
 * Functional programming / λ-calculus
   * Differential linear logic, differential lambda calculus
 * Array programming / linear algebra
-  * Tensor-based libraries
-* Semiring programming / message passing
+  * Tensor-based libraries and frameworks, e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum)
 * Logic programming / Relational programming
-* Meta-programming / meta-learning
+  * Datalog, miniKanren
 * Computer aided reasoning / automatic theorem proving
 * Domain-specific languages and compilers
 * Inductive programming / programming by example
