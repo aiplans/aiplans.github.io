@@ -24,7 +24,18 @@ Authors are strongly encouraged to submit early and often, as due to scheduling 
 
 # Submission Guidelines
 
-We invite papers that describe new or existing theory, methodology and/or applications related to automated learning and reasoning in the fields of programming languages and artificial intelligence. Submitted papers will be evaluated based on their (1) technical quality (2) clarity and (3) potential impact. We also encourage submissions describing novel programming languages or software implementations.
+We invite papers that describe new or existing theory, methodology and/or applications related to automated learning and reasoning in the fields of programming languages and artificial intelligence. Submitted papers will be evaluated based on their (1) technical quality (2) clarity and (3) potential impact. For illustration, submissions may include the following topics:
+
+* Neural program synthesis (e.g., search-based, syntax/execution-guided)
+* Bayesian program learning (e.g., higher-order probabilistic programming)
+* Neural-symbolic reasoning (e.g., automated program verification and testing)
+* Neural program extraction (e.g., procedural or relational knowledge distillation)
+* Induction of formal languages (e.g., grammar inference, automata extraction)
+* Natural language programming (e.g., machine teaching, programming by example)
+* Logic programming (e.g., LF/Twelf, Prolog, ILP, constraint programming)
+* Learning domain specific languages (e.g., Datalog, HOL, miniKanren)
+* New programming languages for ML (e.g., Dex, Hasktorch, Torch-Struct)
+* Programing language theory (e.g., type theory, denotational semantics)
 
 Submissions are limited to four NeurIPS-formatted pages, plus unlimited additional pages for references and appendices. Authors may optionally submit a single file of supplementary material, such as a PDF (e.g. containing proof details) or a ZIP file containing e.g. code or other artifacts. Reviewers will be allowed but not obliged to consider supplementary material.
 
