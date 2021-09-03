@@ -57,7 +57,7 @@ We would be excited to see submissions similar to or building on the following n
 * Array programming / linear algebra
   * Tensor-based libraries and frameworks, e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum)
 * Logic programming / Relational programming
-  * Datalog, miniKanren
+  * Prolog, Datalog, miniKanren, HOL, LF/Twelf
 * Computer aided reasoning / automatic theorem proving
 * Domain-specific languages and compilers
 * Inductive programming / programming by example
