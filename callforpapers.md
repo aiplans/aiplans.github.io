@@ -18,7 +18,7 @@ AIPLANS has four important dates to keep in mind:
 
 **Camera-ready deadline**: Dec 10, 2021 AoE
 
-**Tentative conference dates**: Dec 13th or 14th, 2021
+**Workshop date**: Dec 14th, 2021
 
 Authors are strongly encouraged to submit early and often, as due to scheduling constraints, AIPLANS is unable to offer any extensions.
 
