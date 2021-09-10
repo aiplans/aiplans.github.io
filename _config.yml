@@ -39,6 +39,7 @@ header_pages:
 - speakers.md
 - organizers.md
 - chairs.md
+- reviwers.md
 - callforpapers.md
 - schedule.md
 - getinvolved.md
@@ -65,6 +66,8 @@ collections:
   organizers:
     output: true
   chairs:
+    output: true
+  reviwers:
     output: true
   schedule:
     sort_by: sequence_id
