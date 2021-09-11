@@ -37,22 +37,22 @@ We would be excited to see submissions similar to or building on the following n
   * [Categorical Foundations of Gradient-Based Learning](https://arxiv.org/abs/2103.01931)
 * Design of tools for automatic differentiation:
   * New features in [JAX](https://github.com/google/jax), [Dex](https://github.com/google-research/dex-lang)
-* Development of neurosymbolic based reasoning systems:
-  * Works that build on [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
+* Development of neurosymbolic based reasoning systems, e.g.:
+  * Work building on [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
 * Program synthesis:
   * Improvements to [RobustFill](https://arxiv.org/abs/1703.07469), [DeepCoder](https://arxiv.org/abs/1611.01989) or applications such as [Naturalizing A Programming Language Via Interactive Learning](https://arxiv.org/pdf/1704.06956.pdf)
 * Probabilistic Programming:
   * [Deep Probabilistic Programming](https://arxiv.org/abs/1701.03757), [Stochastic Processes as Concurrent Constraint Programs](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.7979&rep=rep1&type=pdf)  
 * Theory of mechanical reasoning and automatic programming languages:
-  * Works which explain the interplay between neural networks and programming methods [Dynamical systems that sort lists, diagonalize matrices and solve linear programming problems](http://hrl.harvard.edu/publications/brockett88dynamical.pdf), [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
-  * Semiring Programming, [torch-struct](https://arxiv.org/abs/2002.00876) 
-  * Functional or array programming [Hasktorch](https://github.com/hasktorch/hasktorch), [Strongly-Typed RNNs](https://arxiv.org/abs/1602.02218), [Tangent](https://arxiv.org/abs/1809.09569)
+  * Work which explains the interplay between neural networks and programming methods, e.g., [Dynamical systems that sort lists, diagonalize matrices and solve linear programming problems](http://hrl.harvard.edu/publications/brockett88dynamical.pdf), [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
+  * Probabilistic programming frameworks, e.g., [Stan](https://github.com/stan-dev/stan), [Edward](https://github.com/blei-lab/edward), [PyMC3](https://github.com/pymc-devs/pymc3), [Pyro](https://github.com/pyro-ppl/pyro), [torch-struct](https://arxiv.org/abs/2002.00876) 
+  * Functional or array programming, e.g., [Hasktorch](https://github.com/hasktorch/hasktorch), [Strongly-Typed RNNs](https://arxiv.org/abs/1602.02218), [Tangent](https://arxiv.org/abs/1809.09569)
 * Declarative programming / constraint programming
   * e.g. Neural program synthesis, neural guided program search
 * Dynamic programming / reinforcement learning
   * e.g. [Semiring programming](https://arxiv.org/pdf/1609.06954.pdf), [probabilistic programming](https://arxiv.org/pdf/2005.09089v3.pdf)
 * Functional programming / λ-calculus
-  * Differential linear logic, differential lambda calculus
+  * [Differential linear logic](https://arxiv.org/pdf/1606.01642.pdf), [differential lambda calculus](https://core.ac.uk/download/pdf/82396223.pdf)
 * Array programming / linear algebra
   * Tensor-based libraries and frameworks, e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum)
 * Logic programming / Relational programming
