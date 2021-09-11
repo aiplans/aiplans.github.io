@@ -12,13 +12,13 @@ When you are ready to submit, please do so using the following URL: [https://ope
 
 AIPLANS has four important dates to keep in mind:
 
-**Paper submission deadline**: Sept 24th, 2021 AoE
+**Paper submission deadline**: Sept. 24th, 2021 AoE
 
 **Reviews released**: Oct. 23rd, 2021
 
-**Camera-ready deadline**: Dec 10, 2021 AoE
+**Camera-ready deadline**: Dec. 10, 2021 AoE
 
-**Workshop date**: Dec 14th, 2021
+**Workshop date**: Dec. 14th, 2021
 
 Authors are strongly encouraged to submit early and often, as due to scheduling constraints, AIPLANS is unable to offer any extensions.
 
