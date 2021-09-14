@@ -38,6 +38,7 @@ We invite papers that describe new or existing theory, methodology and/or applic
 * Programing language theory (e.g., type theory, category theory, denotational semantics)
 * Satisfiability checking and symbolic computation (e.g. SAT/SMT solving, boolean circuits)
 * Logic and equational reasoning (e.g., λ-calculus, π-calculus, tensor and combinator calculi)
+* Inference algorithms (e.g., backpropagation, belief propagation, survey propagation et al.)
 
 Submissions are limited to four NeurIPS-formatted pages, plus unlimited additional pages for references and appendices. Authors may optionally submit a single file of supplementary material, such as a PDF (e.g. containing proof details) or a ZIP file containing e.g. code or other artifacts. Reviewers will be allowed but not obliged to consider supplementary material.
 
