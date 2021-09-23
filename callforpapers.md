@@ -12,7 +12,7 @@ When you are ready to submit, please do so using the following URL: [https://ope
 
 AIPLANS has four important dates to keep in mind:
 
-**Paper submission deadline**: Sept. 24th, 2021 AoE
+**Paper submission deadline**: Oct. 4th, 2021 AoE
 
 **Reviews released**: Oct. 23rd, 2021
 
@@ -26,16 +26,19 @@ Authors are strongly encouraged to submit early and often, as due to scheduling 
 
 We invite papers that describe new or existing theory, methodology and/or applications related to automated learning and reasoning in the fields of programming languages and artificial intelligence. Submitted papers will be evaluated based on their (1) technical quality (2) clarity and (3) potential impact. For illustration, submissions may include the following topics:
 
-* Neural program synthesis (e.g., search-based, syntax/execution-guided)
+* Neural program synthesis (e.g., search-based, syntax or execution-guided)
 * Bayesian program learning (e.g., higher-order probabilistic programming)
 * Neural-symbolic reasoning (e.g., automated program verification and testing)
 * Neural program extraction (e.g., procedural or relational knowledge distillation)
 * Induction of formal languages (e.g., grammar inference, automata extraction)
 * Natural language programming (e.g., machine teaching, programming by example)
-* Logic programming (e.g., LF/Twelf, Prolog, ILP, constraint programming)
-* Learning domain specific languages (e.g., Datalog, HOL, miniKanren)
-* New programming languages for ML (e.g., Dex, Hasktorch, Torch-Struct)
-* Programing language theory (e.g., type theory, denotational semantics)
+* Logic programming (e.g., tabled LP, ILP, constraint programming et al.)
+* New programming languages for reasoning (e.g., LF/Twelf, HOL, miniKanren, L∃∀N, et al.)
+* New programming languages for learning (e.g., Dex, Hasktorch, Torch-Struct, et al.)
+* Programing language theory (e.g., type theory, category theory, denotational semantics)
+* Satisfiability checking and symbolic computation (e.g. SAT/SMT solving, boolean circuits)
+* Logic and equational reasoning (e.g., λ-calculus, π-calculus, tensor and combinator calculi)
+* Inference algorithms (e.g., backpropagation, belief propagation, survey propagation et al.)
 
 Submissions are limited to four NeurIPS-formatted pages, plus unlimited additional pages for references and appendices. Authors may optionally submit a single file of supplementary material, such as a PDF (e.g. containing proof details) or a ZIP file containing e.g. code or other artifacts. Reviewers will be allowed but not obliged to consider supplementary material.
 
@@ -49,4 +52,4 @@ Please direct any questions about the above information to the [AIPLANS organize
 
 # Confidentiality
 
-AIPLANS is committed to protecting the anonymity of its authors and reviewers during the review process. We will use OpenReview to host public discussions, however reviewers’ comments will remain anonymous. Any papers divulging information that could reasonably be used to identify the authors’ names or affiliations will be subject to desk rejection. AIPLANS advises against advertising preprints on social media or elsewhere while under review. Preprints may not be explicitly identified as an AIPLANS submission at any time during the review period.
+AIPLANS is committed to protecting the anonymity of its authors and reviewers. We will use OpenReview to host discussions, however reviewers’ identities will remain anonymous. Any papers divulging information that could reasonably be used to identify the authors’ names or affiliations will be subject to desk rejection. AIPLANS advises against advertising preprints on social media or elsewhere while under review and preprints must not be explicitly identified as an AIPLANS submission at any time during the review period. Reviews will not be made public after the discussion period ends.
