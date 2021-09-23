@@ -12,7 +12,7 @@ When you are ready to submit, please do so using the following URL: [https://ope
 
 AIPLANS has four important dates to keep in mind:
 
-**Paper submission deadline**: Sept. 24th, 2021 AoE
+**Paper submission deadline**: Oct. 4th, 2021 AoE
 
 **Reviews released**: Oct. 23rd, 2021
 
