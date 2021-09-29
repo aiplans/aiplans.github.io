@@ -40,7 +40,7 @@ We invite papers that describe new or existing theory, methodology and/or applic
 * Logic and equational reasoning (e.g., λ-calculus, π-calculus, tensor and combinator calculi)
 * Inference algorithms (e.g., backpropagation, belief propagation, survey propagation et al.)
 
-Submissions are limited to four NeurIPS-formatted pages, plus unlimited additional pages for references and appendices. Authors may optionally submit a single file of supplementary material, such as a PDF (e.g. containing proof details) or a ZIP file containing e.g. code or other artifacts. Reviewers will be allowed but not obliged to consider supplementary material.
+Submissions are limited to four NeurIPS-formatted pages, plus unlimited additional pages for references, appendices and supplementary material (e.g. containing proof details). Other materials, such as multimedia or source code may be shared by linking to an anonymized Git repository, e.g., https://anonymous.4open.science/. Reviewers will be allowed but not obliged to consider supplementary material.
 
 Paper should be formatted according to the follow LaTeX template: [https://aiplans.github.io/assets/cfp/aiplans2021template.zip](https://aiplans.github.io/assets/cfp/aiplans2021template.zip)
 
