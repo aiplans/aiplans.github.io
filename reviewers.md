@@ -21,5 +21,9 @@ AIPLANS is grateful for the support of the following individuals, who have gener
 * [Boyan Beronov](https://scholar.google.com/citations?user=mJH2wncAAAAJ&hl=en)
 * [Jacob Austin](http://www.jacobaustin.org/)
 * [Robin Manhaeve](https://scholar.google.be/citations?user=pQht1BIAAAAJ)
+* [Adam Paszke](https://apaszke.github.io/)
+* [Stassa Patsantzis](https://github.com/stassa)
+* [Kia Rahmani](https://kiarahmani.github.io/)
+* [Alcides Fonseca](https://utaustinportugal.org/participants/alcides-fonseca/)
 
 If you have expertise in the subject matter and would like to help review submissions, please complete [this form](https://docs.google.com/forms/d/e/1FAIpQLSf7AJhFCpgPseBvE1iSKIBygvsiPUn--vwIEBwZaQjsEA1d8g/viewform) and one of the organizers will be in touch with you shortly.
