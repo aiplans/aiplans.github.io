@@ -12,4 +12,4 @@ AIPLANS is an equal-opportunity workshop and is seeking contributors to take an 
 4. Share our [CFP](https://aiplans.github.io/callforpapers/) with those who may be interested.
 5. Follow us [on Twitter](https://twitter.com/createaiplans)!
 
-The organizers may be reached collectively at `aiplans2021 at gmail dot com` or individually at their respective .
+The [organizers](/organizers) may be reached collectively at `aiplans2021 at gmail dot com` or individually at their respective email addresses.
