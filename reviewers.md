@@ -10,7 +10,6 @@ AIPLANS is grateful for the support of the following individuals, who have gener
 * [Krishna Murthy Jatavallabhula](https://krrish94.github.io/)
 * [Shagun Sodhani](https://shagunsodhani.com/)
 * [Kevin Ellis](https://www.cs.cornell.edu/~ellisk/)
-* [Antonio Vergari](http://web.cs.ucla.edu/~aver/)
 * [Uri Alon](https://urialon.ml/)
 * [Izzeddin Gür](https://scholar.google.com/citations?user=qS_ugJAAAAAJ&hl=en)
 * [Daniel Johnson](https://www.danieldjohnson.com/)
