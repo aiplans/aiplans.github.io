@@ -20,7 +20,6 @@ AIPLANS is grateful for the support of the following individuals, who have gener
 * [Kia Rahmani](https://kiarahmani.github.io/)
 * [Kiran Gopinathan](https://gopiandcode.uk/)
 * [Krishna Murthy Jatavallabhula](https://krrish94.github.io/)
-* [Ohad Kammar](http://denotational.co.uk/)
 * [Pascal Lamblin](https://research.google/people/106861/)
 * [Rif A. Saurous](https://derifatives.github.io/about/)
 * [Robin Manhaeve](https://scholar.google.be/citations?user=pQht1BIAAAAJ)
