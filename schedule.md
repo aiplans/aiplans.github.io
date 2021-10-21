@@ -1,9 +1,5 @@
 ---
 layout: schedule
-title: Schedule
+title: Schedule (Dec. 14th, 2021, EST)
 permalink: /schedule/
 ---
-
-Dec. 14th, 2021
-
-All times are in EST
