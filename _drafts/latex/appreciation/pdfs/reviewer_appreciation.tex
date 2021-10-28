@@ -1,0 +1,92 @@
+\documentclass[12pt,landscape]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[top=1.5cm,bottom=1cm,left=1cm,right=1cm,headsep=10pt,a4paper]{geometry} % Page margins
+\usepackage{graphicx} % Required for including pictures
+
+% Non hifenize:
+\usepackage[none]{hyphenat}
+\usepackage{scalefnt}
+\usepackage[listings,skins,breakable]{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+
+\usepackage{lipsum}
+\usepackage{xcolor} % Required for specifying colors by name
+% colors
+\definecolor{subtitlecolor}{HTML}{002244}
+\definecolor{titlecolor}{HTML}{600404}
+\definecolor{darkbrown}{rgb}{0.4, 0.26, 0.13}
+\AddToShipoutPictureBG{%
+	\begin{tikzpicture}[overlay,remember picture]
+		\color{Blue}
+		\draw[gray, line width=3.5pt]
+		($ (current page.north west) + (1cm,-1cm) $)
+		rectangle
+		($ (current page.south east) + (-1cm,1cm) $);
+		\draw[gray, line width=1.5pt]
+		($ (current page.north west) + (1.2cm,-1.2cm) $)
+		rectangle
+		($ (current page.south east) + (-1.2cm,1.2cm) $);
+% \draw[gray, line width=0.5pt]
+%     ($ (current page.north west) + (1.4cm,-1.4cm) $)
+%     rectangle
+%     ($ (current page.south east) + (-1.4cm,1.4cm) $);    
+	\end{tikzpicture}
+}
+
+
+
+\begin{document}
+
+	\pagestyle{empty}
+
+	~
+	\vskip 1.17cm
+
+	\begin{center}
+	{\scalefont{5} \sc \color{titlecolor} Certificate of Reviewer Appreciation}\\[20pt]
+	{\scalefont{1.6} \sc \color{subtitlecolor} The First Annual Workshop on Advances In}\\[10pt]
+	{\scalefont{1.8} \sc \color{subtitlecolor}Programming Languages and Neurosymbolic Systems}\\[10pt]
+	\\
+% {\scalefont{1.4} \sc \color{subtitlecolor} at Neural Information Processing Systems '21}\\
+	{\scalefont{1.5} \sc \color{subtitlecolor} December 14\textsuperscript{th}, 2021}\\
+	\end{center}
+
+	\vskip 0.7cm
+
+	\hskip 10pt
+	\begin{center}
+		\begin{minipage}{0.72\textwidth}
+			\scalefont{1.5}
+
+			AIPLANS acknowledges \textbf{@reviewer@} for being an exceptional reviewer. We appreciate your insightful feedback and would like to award you this certificate as a small token of our gratitude. This workshop is made possible through the generous support of individuals like you. On behalf of its participants, we thank you for your invaluable contributions to AIPLANS!
+
+		\end{minipage}
+	\end{center}
+
+	\vskip 0.7cm
+	\begin{minipage}{0.17\textwidth}
+		~
+	\end{minipage}
+	\begin{minipage}{0.4\textwidth}
+		\scalefont{1.1}
+		\includegraphics[height=1cm]{../png/breandan}\hskip 3\includegraphics[height=1cm]{../png/disha}\hskip 3\includegraphics[height=1cm]{../png/david}\hskip 3pt\includegraphics[height=1cm]{../png/chinwei}\includegraphics[height=1cm]{../png/shawn}\\[-20pt]
+		\rule{10.3cm}{1pt}\\[5pt]
+		Breandan, Disha, David, Chinwei and Shawn\\
+		AIPLANS Organizing Committee \\
+		October 27\textsuperscript{th}, 2021
+	\end{minipage}
+	\begin{minipage}{0.02\textwidth}
+		~
+	\end{minipage}
+	\begin{minipage}{0.30\textwidth}
+		\includegraphics[width=5cm]{../png/logo}
+	\end{minipage}
+
+
+	\vfill
+
+\end{document}
