@@ -1,6 +1,6 @@
 ---
 sequence_id: 19
-title: <a href="https://openreview.net/forum?id=xuVVuLcqBP5">A Genetic Programming Approach To Zero-Shot Neural Architecture Ranking</a>
-authors: <a href="https://akhauriyash.github.io/">Yash Akhauri</a>, <a href="https://www.intel.ca/content/www/ca/en/research/researchers/j--pablo-munoz.html">Juan Pablo Munoz</a>, <a href="https://scholar.google.com/citations?user=2rO3ZvEAAAAJ">Ravishankar Iyer</a>, <a href="https://scholar.google.com/citations?user=sWUGELEAAAAJ">Nilesh Jain</a>
-img: genetic_programming.png
+title: <a href="https://arxiv.org/pdf/2108.07639.pdf">Learning C to x86 Translation&#58; An Experiment in Neural Compilation</a> / <a href="https://github.com/jordiae/neural-compilers">code</a>
+authors: <a href="https://scholar.google.es/citations?user=CiHoJfcAAAAJ">Jordi Armengol-Estapé</a>, <a href="http://www.dcs.ed.ac.uk/home/mob/">Michael O'Boyle</a>
+img: c2x86_trans.png
 ---

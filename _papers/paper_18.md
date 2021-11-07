@@ -1,6 +1,6 @@
 ---
 sequence_id: 18
-title: <a href="https://arxiv.org/pdf/2108.07639.pdf">Learning C to x86 Translation&#58; An Experiment in Neural Compilation</a> / <a href="https://github.com/jordiae/neural-compilers">code</a>
-authors: <a href="https://scholar.google.es/citations?user=CiHoJfcAAAAJ">Jordi Armengol-Estapé</a>, <a href="http://www.dcs.ed.ac.uk/home/mob/">Michael O'Boyle</a>
-img: c2x86_trans.png
+title: <a href="https://openreview.net/forum?id=fIU0j2MXTIa">AutoCoder&#58; Leveraging Transformers for Automatic Code Synthesis</a>
+authors: <a href="https://kaiyon07.github.io/">Mrinal Anand</a>, <a href="https://scholar.google.com/citations?user=WOrOyp4AAAAJ">Pratik Kayal</a>, <a href="https://mayank4490.github.io/">Mayank Singh</a>
+img: autocoder.png
 ---

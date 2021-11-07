@@ -1,6 +1,6 @@
 ---
 sequence_id: 2
-title: <a href="https://openreview.net/forum?id=yHox9OyegeX">LazyPPL&#58; laziness and types in non-parametric probabilistic programs</a>
-authors: <a href="https://www.cs.ox.ac.uk/people/hugo.paquet/main.html">Hugo Paquet</a>, <a href="http://www.cs.ox.ac.uk/people/samuel.staton/main.html">Sam Staton</a>
-img: lazy_ppl.png
+title: <a href="https://openreview.net/forum?id=yHYZaQ0Zvml">Type Inference as Optimization</a>
+authors: <a href="http://www.inf.ed.ac.uk/people/students/Eirini_Irene_Vlassi_Pandi.html">Eirene Vlassi Pandi</a>, <a href="https://earlbarr.com/">Earl Barr</a>, <a href="https://www.microsoft.com/en-us/research/people/adg/">Andrew D. Gordon</a>, <a href="https://homepages.inf.ed.ac.uk/csutton/">Charles Sutton</a>
+img: type_opt.png
 ---

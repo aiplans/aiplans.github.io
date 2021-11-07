@@ -1,6 +1,6 @@
 ---
 sequence_id: 5
-title: <a href="https://openreview.net/pdf?id=v8IbnUesFpE">Learning Adaptive Control Flow in Transformers for Improved Systematic Generalization</a>
-authors: <a href="https://robertcsordas.github.io/">Róbert Csordás</a>, <a href="https://www-i6.informatik.rwth-aachen.de/~irie/">Kazuki Irie</a>, <a href="https://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
-img: learn_acf.png
+title: <a href="https://openreview.net/forum?id=qey0t9ivuBv">Scallop&#58; From Probabilistic Deductive Databases to Scalable Differentiable Reasoning</a> / <a href="https://github.com/scallop-lang/scallop-v1">code</a>
+authors: <a href="https://www.cis.upenn.edu/~jianih/">Jiani Huang</a>, <a href="https://liby99.github.io/">Ziyang Li</a>, <a href="http://binghongchen.net/">Binghong Chen</a>, <a href="https://karans.github.io/">Karan Samel</a>, <a href="https://www.cis.upenn.edu/~mhnaik/">Mayur Naik</a>, <a href="https://scholar.google.com/citations?user=Xl4E0CsAAAAJ">Le Song</a>, <a href="https://www.cs.mcgill.ca/~xsi/">Xujie Si</a>
+img: scallop.png
 ---

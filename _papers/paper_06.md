@@ -1,6 +1,6 @@
 ---
 sequence_id: 6
-title: <a href="https://openreview.net/forum?id=17C-dfA5X69">Adversarial Robustness of Program Synthesis Models</a>
-authors: <a href="https://kaiyon07.github.io/">Mrinal Anand</a>, <a href="https://scholar.google.com/citations?user=WOrOyp4AAAAJ">Pratik Kayal</a>, <a href="https://mayank4490.github.io/">Mayank Singh</a>
-img: adv_robust.png
+title: <a href="https://openreview.net/pdf?id=v8IbnUesFpE">Learning Adaptive Control Flow in Transformers for Improved Systematic Generalization</a>
+authors: <a href="https://robertcsordas.github.io/">Róbert Csordás</a>, <a href="https://www-i6.informatik.rwth-aachen.de/~irie/">Kazuki Irie</a>, <a href="https://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
+img: learn_acf.png
 ---

@@ -10,7 +10,7 @@ img: metalearn_pp.png
 title: [Learning Rules with Stratified Negation in Differentiable ILP](https://openreview.net/forum?id=BOtQHCVIh_K)
 authors: [Giri P Krishnan](https://scholar.google.com/citations?user=IGsdszkAAAAJ), [Frederick Maier](https://scholar.google.com/citations?user=Tj47doAAAAAJ&hl=en), [Ramyaa Ramyaa](https://www.cs.nmt.edu/~ramyaa/)
 img: diff_ilp.png
-  
+
 title: [Type Inference as Optimization](https://openreview.net/forum?id=yHYZaQ0Zvml)
 authors: [Eirene Vlassi Pandi](http://www.inf.ed.ac.uk/people/students/Eirini_Irene_Vlassi_Pandi.html), [Earl Barr](https://earlbarr.com/), [Andrew D. Gordon](https://www.microsoft.com/en-us/research/people/adg/), [Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/)
 img: type_opt.png
