@@ -1,5 +1,6 @@
 ---
 sequence_id: 23
-name: <a href="https://conf.researchr.org/profile/conf/marcozocca1">Marco Zocca</a>
+name: <a href="https://github.com/ocramz">Marco Zocca</a>
 img: marco.jpg
+affil: UnfoldML
 ---
