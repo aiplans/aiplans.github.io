@@ -34,9 +34,7 @@ papers.lines().forEachIndexed { i, line ->
     sequence_id: $i
     title: ${paperInfo[0]}
     authors: ${paperInfo[1]}
-    affil:
-    pdf:
-    img:
     ---
+    
   """.trimIndent())
 }
