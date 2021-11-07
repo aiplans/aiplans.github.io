@@ -1,19 +1,8 @@
 ---
-# Determines which paper appears first (lowest number (0) appears first)
 sequence_id: 0
-
-# Paper title
-title: gradSLAM - Automagically differentiable SLAM
-
-# Paper authors
-authors: Krishna Murthy Jatavallabhula, Soroush Saryazdi, Ganesh Iyer, and Liam Paull
-
-# Author affiliations
-affil: Mila, Universite de Montreal, Concordia University, and Carnegie Mellon University
-
-# Link to the paper's pdf (place in the `assets/pdf/papers` directory)
-pdf: 00.pdf
-
-# Link to a representative image for the paper (place in the `assets/img/papers` directory)
-img: 00.png
+title: [AutumnSynth: Synthesis of Reactive Programs with Structured Latent State](https://openreview.net/forum?id=Qw8eyl2_N_-)
+authors: [Ria Das](https://www.csail.mit.edu/person/ria-das), [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html), [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/), [Zenna Tavares](http://www.zenna.org/)
+affil:
+pdf:
+img:
 ---

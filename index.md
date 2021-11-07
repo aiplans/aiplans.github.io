@@ -59,6 +59,6 @@ We would be excited to see submissions similar to or building on the following n
 * Domain-specific languages and compilers
 * Inductive programming / programming by example
 
-Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting ongoing work that may be relevant to machine learning community. Details regarding evaluation criteria, deadlines and workshop logistics can be found under the [AIPLANS CFP](callforpapers.md).
+Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting ongoing work that may be relevant to machine learning community.
 
 AIPLANS is brought to you in collaboration with the organizers of the [Differentiable Programming Workshop](https://diffprogramming.mit.edu/) at NeurIPS 2021. We share their enthusiasm for differentiable and probabilistic programming and see many applications towards program synthesis and symbolic reasoning. Those with similar interests are highly encouraged to participate in both workshops.  Prospective authors should submit their work to the most relevant venue, as dual submissions will be evaluated once.

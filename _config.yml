@@ -40,9 +40,9 @@ header_pages:
 - organizers.md
 - chairs.md
 - reviewers.md
-- callforpapers.md
+#- callforpapers.md
 - schedule.md
-- getinvolved.md
+#- getinvolved.md
 - papers.md
 #- contactus.md
 
