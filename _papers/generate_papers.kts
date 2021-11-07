@@ -80,5 +80,5 @@ ${lines.translateMarkdownToHTML()}
 fun String.translateMarkdownToHTML() =
   Regex("\\[(.*?)\\]\\((.*?)\\)").replace(this){ mr ->
     val (text, link) = mr.destructured
-    "<a href=\"$link\">$text</a>"
+    "<a href=\"$link\">${text.replace(":", "&#58;")}</a>"
   }
