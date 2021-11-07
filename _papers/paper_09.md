@@ -1,5 +1,6 @@
 ---
 sequence_id: 9
-title: <a href="https://openreview.net/pdf?id=v8IbnUesFpE">Learning Adaptive Control Flow in Transformers for Improved Systematic Generalization</a>
-authors: <a href="https://robertcsordas.github.io/">Róbert Csordás</a>, <a href="https://www-i6.informatik.rwth-aachen.de/~irie/">Kazuki Irie</a>, <a href="https://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
+title: <a href="https://openreview.net/forum?id=pFy0jbqiCDY">Towards Neural Functional Program Evaluation</a>
+authors: <a href="https://tscholak.github.io/">Torsten Scholak</a>, <a href="https://scholar.google.com/citations?user=PNFW8HwAAAAJ">Jonathan Pilault</a>, <a href="https://www.seas.upenn.edu/~joeyv/">Joey Velez-Ginorio</a>
+img: neural_fp.png
 ---

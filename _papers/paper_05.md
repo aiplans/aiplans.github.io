@@ -1,5 +1,6 @@
 ---
 sequence_id: 5
-title: <a href="https://openreview.net/forum?id=ZtyvT0aHNBP">Safe Neurosymbolic Learning with Differentiable Symbolic Execution</a>
-authors: <a href="https://cxyang1997.github.io/">Chenxi Yang</a>, <a href="https://www.cs.utexas.edu/~swarat/">Swarat Chaudhuri</a>
+title: <a href="https://openreview.net/pdf?id=v8IbnUesFpE">Learning Adaptive Control Flow in Transformers for Improved Systematic Generalization</a>
+authors: <a href="https://robertcsordas.github.io/">Róbert Csordás</a>, <a href="https://www-i6.informatik.rwth-aachen.de/~irie/">Kazuki Irie</a>, <a href="https://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
+img: learn_acf.png
 ---

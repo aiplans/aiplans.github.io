@@ -1,5 +1,6 @@
 ---
 sequence_id: 3
-title: <a href="https://openreview.net/forum?id=pFy0jbqiCDY">Towards Neural Functional Program Evaluation</a>
-authors: <a href="https://tscholak.github.io/">Torsten Scholak</a>, <a href="https://scholar.google.com/citations?user=PNFW8HwAAAAJ">Jonathan Pilault</a>, <a href="https://www.seas.upenn.edu/~joeyv/">Joey Velez-Ginorio</a>
+title: <a href="https://openreview.net/forum?id=2NskntTea1v">PAC Synthesis of Machine Learning Programs</a>
+authors: <a href="https://obastani.github.io/">Osbert Bastani</a>
+img: pac_synth.png
 ---

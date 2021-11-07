@@ -1,5 +1,6 @@
 ---
 sequence_id: 17
-title: <a href="https://openreview.net/forum?id=yHox9OyegeX">LazyPPL&#58; laziness and types in non-parametric probabilistic programs</a>
-authors: <a href="https://www.cs.ox.ac.uk/people/hugo.paquet/main.html">Hugo Paquet</a>, <a href="http://www.cs.ox.ac.uk/people/samuel.staton/main.html">Sam Staton</a>
+title: <a href="https://openreview.net/forum?id=fIU0j2MXTIa">AutoCoder&#58; Leveraging Transformers for Automatic Code Synthesis</a>
+authors: <a href="https://kaiyon07.github.io/">Mrinal Anand</a>, <a href="https://scholar.google.com/citations?user=WOrOyp4AAAAJ">Pratik Kayal</a>, <a href="https://mayank4490.github.io/">Mayank Singh</a>
+img: autocoder.png
 ---

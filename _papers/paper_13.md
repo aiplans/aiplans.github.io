@@ -1,5 +1,6 @@
 ---
 sequence_id: 13
-title: <a href="https://openreview.net/forum?id=HyTIeooyV2H">Synthesizing Video Trajectory Queries</a>
-authors: Stephen Mell, <a href="https://favyen.com/">Favyen Bastani</a>, <a href="https://www.cis.upenn.edu/~stevez/">Stephan Zdancewic</a>, <a href="https://obastani.github.io/">Osbert Bastani</a>
+title: <a href="https://openreview.net/forum?id=_Y4FQu1aJ1Z">Augmenting Classic Algorithms with Neural Components for Strong Generalisation on Ambiguous and High-Dimensional Data</a>
+authors: <a href="https://ischlag.github.io/about/">Imanol Schlag</a>, <a href="https://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
+img: neural_aug.png
 ---

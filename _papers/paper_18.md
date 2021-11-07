@@ -1,5 +1,6 @@
 ---
 sequence_id: 18
-title: <a href="https://openreview.net/forum?id=Xw3kb6UyA31">Proof Extraction for Logical Neural Networks</a>
-authors: <a href="https://scholar.google.com/citations?user=0mF32KgAAAAJ">Thabang Lebese</a>, <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Ndivhuwo.Makondo">Ndivhuwo Makondo</a>, <a href="https://scholar.google.com/citations?user=EP9lmrcAAAAJ">Cristina Cornelio</a>, <a href="https://scholar.google.com/citations?user=CXaTRZUAAAAJ">Naweed Khan</a>
+title: <a href="https://arxiv.org/pdf/2108.07639.pdf">Learning C to x86 Translation&#58; An Experiment in Neural Compilation</a> / <a href="https://github.com/jordiae/neural-compilers">code</a>
+authors: <a href="https://scholar.google.es/citations?user=CiHoJfcAAAAJ">Jordi Armengol-Estapé</a>, <a href="http://www.dcs.ed.ac.uk/home/mob/">Michael O'Boyle</a>
+img: c2x86_trans.png
 ---
