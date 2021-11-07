@@ -2,97 +2,97 @@ import java.io.File
 
 val reviewers = """
 name: [Alex Sanchez-Stern](http://alex.uwplse.org/)
-img: alex.png
+img: alex.jpg
 
 name: [Boyan Beronov](https://scholar.google.com/citations?user=mJH2wncAAAAJ&hl=en)
-img: boyan.png
+img: boyan.jpg
 
 name: [Dan Zheng](https://danzheng.me/)
-img: dan.png
+img: dan.jpg
 
 name: [Daniel D Johnson](https://www.danieldjohnson.com/)
-img: daniel.png
+img: daniel.jpg
 
 name: [Izzeddin Gür](https://scholar.google.com/citations?user=qS_ugJAAAAAJ&hl=en)
-img: izzeddin.png
+img: izzeddin.jpg
 
 name: [Jacob Austin](http://www.jacobaustin.org/)
-img: jacob.png
+img: jacob.jpg
 
 name: [Kia Rahmani](https://kiarahmani.github.io/)
-img: kia.png
+img: kia.jpg
 
 name: [Pascal Lamblin](https://research.google/people/106861/)
-img: pascal.png
+img: pascal.jpg
 
 name: [Robin Manhaeve](https://scholar.google.be/citations?user=pQht1BIAAAAJ)
-img: robin.png
+img: robin.jpg
 
 name: [Stefan Monnier](https://www.iro.umontreal.ca/~monnier/)
-img: stefan.png
+img: stefan.jpg
 
 name: [Uri Alon](https://urialon.ml/)
-img: uri.png
+img: uri.jpg
 
 name: [Joey Velez-Ginorio](https://www.seas.upenn.edu/~joeyv/)
-img: joey.png
+img: joey.jpg
 
 name: [Talia Ringer](https://dependenttyp.es/)
-img: talia.png
+img: talia.jpg
 
 name: [Hugo Paquet](https://www.cs.ox.ac.uk/people/hugo.paquet/main.html)
-img: hugo.png
+img: hugo.jpg
 
 name: [Krishna Murthy Jatavallabhula](https://krrish94.github.io/)
-img: krishna.png
+img: krishna.jpg
 
 name: [Jordi Armengol-Estapé](https://scholar.google.es/citations?user=CiHoJfcAAAAJ&hl=en)
-img: jordi.png
+img: jordi.jpg
 
 name: [Rif A. Saurous](https://derifatives.github.io/about/)
-img: rif.png
+img: rif.jpg
 
 name: [Abhay Garg](https://www.linkedin.com/in/abhay-garg-04a582137)
-img: abhay.png
+img: abhay.jpg
 
 name: [Alcides Fonseca](https://utaustinportugal.org/participants/alcides-fonseca/)
-img: alcides.png
+img: alcides.jpg
 
 name: [Chenxi Yang](https://cxyang1997.github.io/)
-img: chenxi.png
+img: chenxi.jpg
 
 name: [Giovanni De Toni](https://detoni.me/)
-img: giovanni.png
+img: giovanni.jpg
 
 name: [Giri P Krishnan](https://profiles.ucsd.edu/giri.krishnan)
-img: giri.png
+img: giri.jpg
 
 name: [Kiran Gopinathan](https://gopiandcode.uk/)
-img: kiran.png
+img: kiran.jpg
 
 name: [Marco Zocca](https://conf.researchr.org/profile/conf/marcozocca1)
-img: marco.png
+img: marco.jpg
 
 name: [Mrinal Anand](https://kaiyon07.github.io/)
-img: mrinal.png
+img: mrinal.jpg
 
 name: [Prakash Panangaden](https://www.cs.mcgill.ca/~prakash/)
-img: prakash.png
+img: prakash.jpg
 
 name: [Shagun Sodhani](https://shagunsodhani.com/)
-img: shagun.png
+img: shagun.jpg
 
 name: [Stephen Mell](https://www.cis.upenn.edu/~sm1/)
-img: stephen.png
+img: stephen.jpg
 
 name: [Yash Akhauri](https://scholar.google.com/citations?user=6rbWWzEAAAAJ&hl=en)
-img: yash.png
+img: yash.jpg
 
 name: [Charanraj Thimmisetty](https://scholar.google.com/citations?user=bnnlwwIAAAAJ)
-img: charanraj.png
+img: charanraj.jpg
 
 name: [Ohad Kammar](http://denotational.co.uk/)
-img: ohad.png
+img: ohad.jpg
 """.trimIndent()
 
 reviewers.split(Regex("\n\n")).forEachIndexed { i, lines ->
