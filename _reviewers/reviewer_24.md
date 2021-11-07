@@ -1,5 +1,5 @@
 ---
 sequence_id: 24
 name: <a href="https://kaiyon07.github.io/">Mrinal Anand</a>
-img: mrinal.png
+img: mrinal.jpg
 ---

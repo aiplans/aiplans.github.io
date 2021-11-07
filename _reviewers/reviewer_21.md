@@ -1,5 +1,5 @@
 ---
 sequence_id: 21
 name: <a href="https://profiles.ucsd.edu/giri.krishnan">Giri P Krishnan</a>
-img: giri.png
+img: giri.jpg
 ---
