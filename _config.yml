@@ -43,7 +43,7 @@ header_pages:
 - callforpapers.md
 - schedule.md
 - getinvolved.md
-#- papers.md
+- papers.md
 #- contactus.md
 
 # # Specify the name of a file to show as a masthead graphic at the top of each page, instead of a title, here:
