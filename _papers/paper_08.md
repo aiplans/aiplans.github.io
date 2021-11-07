@@ -1,5 +1,5 @@
 ---
 sequence_id: 8
-title: [Learning compositional programs with arguments and sampling](https://arxiv.org/pdf/2109.00619.pdf)
-authors: [Giovanni De Toni](https://detoni.me/), [Luca Erculiani](https://scholar.google.com/citations?user=kzYHFWMAAAAJ), [Andrea Passerini](https://disi.unitn.it/~passerini/)
+title: <a href="https://arxiv.org/pdf/2109.00619.pdf">Learning compositional programs with arguments and sampling</a>
+authors: <a href="https://detoni.me/">Giovanni De Toni</a>, <a href="https://scholar.google.com/citations?user=kzYHFWMAAAAJ">Luca Erculiani</a>, <a href="https://disi.unitn.it/~passerini/">Andrea Passerini</a>
 ---

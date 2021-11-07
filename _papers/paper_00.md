@@ -1,5 +1,6 @@
 ---
 sequence_id: 0
-title: [AutumnSynth: Synthesis of Reactive Programs with Structured Latent State](https://openreview.net/forum?id=Qw8eyl2_N_-)
-authors: [Ria Das](https://www.csail.mit.edu/person/ria-das), [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html), [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/), [Zenna Tavares](http://www.zenna.org/)
+
+title: <a href="https://openreview.net/forum?id=Qw8eyl2_N_-">AutumnSynth: Synthesis of Reactive Programs with Structured Latent State</a>
+authors: <a href="https://www.csail.mit.edu/person/ria-das">Ria Das</a>, <a href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a>, <a href="https://people.csail.mit.edu/asolar/">Armando Solar-Lezama</a>, <a href="http://www.zenna.org/">Zenna Tavares</a>
 ---

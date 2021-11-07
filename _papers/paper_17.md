@@ -1,5 +1,5 @@
 ---
 sequence_id: 17
-title: [LazyPPL: laziness and types in non-parametric probabilistic programs](https://openreview.net/forum?id=yHox9OyegeX)
-authors: [Hugo Paquet](https://www.cs.ox.ac.uk/people/hugo.paquet/main.html), [Sam Staton](http://www.cs.ox.ac.uk/people/samuel.staton/main.html)
+title: <a href="https://openreview.net/forum?id=yHox9OyegeX">LazyPPL: laziness and types in non-parametric probabilistic programs</a>
+authors: <a href="https://www.cs.ox.ac.uk/people/hugo.paquet/main.html">Hugo Paquet</a>, <a href="http://www.cs.ox.ac.uk/people/samuel.staton/main.html">Sam Staton</a>
 ---

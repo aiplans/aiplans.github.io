@@ -1,5 +1,5 @@
 ---
 sequence_id: 15
-title: [Meta-Learning an Inference Algorithm for Probabilistic Programs](https://arxiv.org/pdf/2103.00737.pdf)
-authors: [Gwonsoo Che](https://sites.google.com/view/gwonsoo-che), [Hongseok Yang](https://sites.google.com/view/hongseokyang/home)
+title: <a href="https://arxiv.org/pdf/2103.00737.pdf">Meta-Learning an Inference Algorithm for Probabilistic Programs</a>
+authors: <a href="https://sites.google.com/view/gwonsoo-che">Gwonsoo Che</a>, <a href="https://sites.google.com/view/hongseokyang/home">Hongseok Yang</a>
 ---

@@ -1,5 +1,5 @@
 ---
 sequence_id: 13
-title: [Synthesizing Video Trajectory Queries](https://openreview.net/forum?id=HyTIeooyV2H)
-authors: Stephen Mell, [Favyen Bastani](https://favyen.com/), [Stephan Zdancewic](https://www.cis.upenn.edu/~stevez/), [Osbert Bastani](https://obastani.github.io/)
+title: <a href="https://openreview.net/forum?id=HyTIeooyV2H">Synthesizing Video Trajectory Queries</a>
+authors: Stephen Mell, <a href="https://favyen.com/">Favyen Bastani</a>, <a href="https://www.cis.upenn.edu/~stevez/">Stephan Zdancewic</a>, <a href="https://obastani.github.io/">Osbert Bastani</a>
 ---

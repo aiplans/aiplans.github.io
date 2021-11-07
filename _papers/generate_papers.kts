@@ -3,7 +3,6 @@ import java.lang.ProcessBuilder.Redirect
 import java.util.concurrent.TimeUnit
 
 val papers = """
-
 title: [AutumnSynth: Synthesis of Reactive Programs with Structured Latent State](https://openreview.net/forum?id=Qw8eyl2_N_-)
 authors: [Ria Das](https://www.csail.mit.edu/person/ria-das), [Joshua B. Tenenbaum](http://web.mit.edu/cocosci/josh.html), [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/), [Zenna Tavares](http://www.zenna.org/)
 
@@ -16,8 +15,8 @@ authors: Abhay Garg, [Anand Sriraman](https://scholar.google.co.in/citations?use
 title: [Towards Neural Functional Program Evaluation](https://openreview.net/forum?id=pFy0jbqiCDY)
 authors: [Torsten Scholak](https://tscholak.github.io/), [Jonathan Pilault](https://scholar.google.com/citations?user=PNFW8HwAAAAJ), [Joey Velez-Ginorio](https://www.seas.upenn.edu/~joeyv/)
 
-title: <a href="https://openreview.net/forum?id=5TCfWXk2waG">Staged compilation of tensor expressions</a>
-authors: <a href="https://github.com/ocramz">Marco Zocca</a>
+title: [Staged compilation of tensor expressions](https://openreview.net/forum?id=5TCfWXk2waG)
+authors: [Marco Zocca](https://github.com/ocramz)
 
 title: [Safe Neurosymbolic Learning with Differentiable Symbolic Execution](https://openreview.net/forum?id=ZtyvT0aHNBP)
 authors: [Chenxi Yang](https://cxyang1997.github.io/), [Swarat Chaudhuri](https://www.cs.utexas.edu/~swarat/)
@@ -71,9 +70,15 @@ papers.split(Regex("\n\n")).forEachIndexed { i, lines ->
 """
 ---
 sequence_id: $i
-$lines
+${lines.translateMarkdownToHTML()}
 ---
 
 """.trimIndent()
   )
 }
+
+fun String.translateMarkdownToHTML() =
+  Regex("\\[(.*?)\\]\\((.*?)\\)").replace(this){ mr ->
+    val (text, link) = mr.destructured
+    "<a href=\"$link\">$text</a>"
+  }
