@@ -14,7 +14,7 @@ name: [Daniel D Johnson](https://www.danieldjohnson.com/)
 img: daniel.jpg
 
 name: [Izzeddin Gür](https://scholar.google.com/citations?user=qS_ugJAAAAAJ&hl=en)
-img: izzeddin.jpg
+img: avatar.jpg
 
 name: [Jacob Austin](http://www.jacobaustin.org/)
 img: jacob.jpg
@@ -53,7 +53,7 @@ name: [Rif A. Saurous](https://derifatives.github.io/about/)
 img: rif.jpg
 
 name: [Abhay Garg](https://www.linkedin.com/in/abhay-garg-04a582137)
-img: abhay.jpg
+img: avatar.jpg
 
 name: [Alcides Fonseca](https://utaustinportugal.org/participants/alcides-fonseca/)
 img: alcides.jpg
