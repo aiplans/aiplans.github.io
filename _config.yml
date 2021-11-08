@@ -44,7 +44,7 @@ header_pages:
 - schedule.md
 #- getinvolved.md
 - papers.md
-#- contactus.md
+- contact.md
 
 # # Specify the name of a file to show as a masthead graphic at the top of each page, instead of a title, here:
 # masthead: assets/img/masthead.png
