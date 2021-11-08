@@ -7,6 +7,8 @@ title: Home
 layout: home
 ---
 
+![](logo.png)
+
 AIPLANS (Advances in Programming Languages and Neurosymbolic Systems): a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
 
 * **Paper submission deadline**: Oct. 4th, 2021 AoE
