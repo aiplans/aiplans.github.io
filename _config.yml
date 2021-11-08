@@ -61,8 +61,8 @@ last_updated: true
 # Define collections (speakers, organizers, papers)
 # To turn off any of these collections, just set "output" to "false"
 collections:
-  speakers:
-    output: true
+#  speakers:
+#    output: true
   organizers:
     sort_by: sequence_id
     output: true
