@@ -3,19 +3,19 @@ import java.lang.ProcessBuilder.Redirect
 import java.util.concurrent.TimeUnit
 
 val papers = """
-title: &lowast;[Meta-Learning an Inference Algorithm for Probabilistic Programs](https://arxiv.org/pdf/2103.00737.pdf)  
+title: 💡[Meta-Learning an Inference Algorithm for Probabilistic Programs](https://arxiv.org/pdf/2103.00737.pdf)  
 authors: [Gwonsoo Che](https://sites.google.com/view/gwonsoo-che), [Hongseok Yang](https://sites.google.com/view/hongseokyang/home)  
 img: metalearn_pp.png  
 
-title: &lowast;[Learning Rules with Stratified Negation in Differentiable ILP](https://openreview.net/forum?id=BOtQHCVIh_K)
+title: 💡[Learning Rules with Stratified Negation in Differentiable ILP](https://openreview.net/forum?id=BOtQHCVIh_K)
 authors: [Giri P Krishnan](https://scholar.google.com/citations?user=IGsdszkAAAAJ), [Frederick Maier](https://scholar.google.com/citations?user=Tj47doAAAAAJ&hl=en), [Ramyaa Ramyaa](https://www.cs.nmt.edu/~ramyaa/)
 img: diff_ilp.png
 
-title: &lowast;[Type Inference as Optimization](https://openreview.net/forum?id=yHYZaQ0Zvml)
+title: 💡[Type Inference as Optimization](https://openreview.net/forum?id=yHYZaQ0Zvml)
 authors: [Eirene Vlassi Pandi](http://www.inf.ed.ac.uk/people/students/Eirini_Irene_Vlassi_Pandi.html), [Earl Barr](https://earlbarr.com/), [Andrew D. Gordon](https://www.microsoft.com/en-us/research/people/adg/), [Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/)
 img: type_opt.png
 
-title: &lowast;[LazyPPL: laziness and types in non-parametric probabilistic programs](https://openreview.net/forum?id=yHox9OyegeX)
+title: 💡[LazyPPL: laziness and types in non-parametric probabilistic programs](https://openreview.net/forum?id=yHox9OyegeX)
 authors: [Hugo Paquet](https://www.cs.ox.ac.uk/people/hugo.paquet/main.html), [Sam Staton](http://www.cs.ox.ac.uk/people/samuel.staton/main.html)
 img: lazy_ppl.png
 
@@ -27,7 +27,7 @@ title: [Scallop: From Probabilistic Deductive Databases to Scalable Differentiab
 authors: [Jiani Huang](https://www.cis.upenn.edu/~jianih/), [Ziyang Li](https://liby99.github.io/), [Binghong Chen](http://binghongchen.net/), [Karan Samel](https://karans.github.io/), [Mayur Naik](https://www.cis.upenn.edu/~mhnaik/), [Le Song](https://scholar.google.com/citations?user=Xl4E0CsAAAAJ), [Xujie Si](https://www.cs.mcgill.ca/~xsi/)
 img: scallop.png
 
-title: &lowast;[Learning Adaptive Control Flow in Transformers for Improved Systematic Generalization](https://openreview.net/pdf?id=v8IbnUesFpE)
+title: 💡[Learning Adaptive Control Flow in Transformers for Improved Systematic Generalization](https://openreview.net/pdf?id=v8IbnUesFpE)
 authors: [Róbert Csordás](https://robertcsordas.github.io/), [Kazuki Irie](https://www-i6.informatik.rwth-aachen.de/~irie/), [Jürgen Schmidhuber](https://people.idsia.ch/~juergen/)
 img: learn_acf.png
 
