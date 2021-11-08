@@ -8,7 +8,7 @@ authors: [Gwonsoo Che](https://sites.google.com/view/gwonsoo-che), [Hongseok Yan
 img: metalearn_pp.png  
 
 title: 💡[Learning Rules with Stratified Negation in Differentiable ILP](https://openreview.net/forum?id=BOtQHCVIh_K)
-authors: [Giri P Krishnan](https://scholar.google.com/citations?user=IGsdszkAAAAJ), [Frederick Maier](https://scholar.google.com/citations?user=Tj47doAAAAAJ&hl=en), [Ramyaa Ramyaa](https://www.cs.nmt.edu/~ramyaa/)
+authors: [Giri P Krishnan](https://scholar.google.com/citations?user=IGsdszkAAAAJ), [Frederick Maier](https://www.twinearth.net/), [Ramyaa Ramyaa](https://www.cs.nmt.edu/~ramyaa/)
 img: diff_ilp.png
 
 title: 💡[Type Inference as Optimization](https://openreview.net/forum?id=yHYZaQ0Zvml)

@@ -1,6 +1,6 @@
 ---
 sequence_id: 8
-speaker: Outstanding Contributor
-title: Contributed Talk
+speaker: Outstanding Contributors
+title: Spotlight Talks
 time: 1600 - 1700
 ---
