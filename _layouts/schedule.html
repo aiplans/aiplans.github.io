@@ -31,7 +31,10 @@ layout: default
 		        <td align="center">
 		        	<div class="col-xs-12">
 			        	<b>{{ scheduleitem.title }}</b>
-		        	</div>
+						{% if scheduleitem.abstract %}
+						{{ scheduleitem.abstract }}
+						{% else %}
+					</div>
 		        </td>
 		        <td>
 		            <div class="people-name text-center">
