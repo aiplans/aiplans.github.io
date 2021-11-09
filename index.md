@@ -8,7 +8,7 @@ layout: home
 ---
 
 <p align="center">
-  <img src="logo.png" width="50%"/>
+  <img src="logo.png" width="30%"/>
 </p>
 
 AIPLANS (Advances in Programming Languages and Neurosymbolic Systems): a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
