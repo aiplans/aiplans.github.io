@@ -66,6 +66,9 @@ collections:
   organizers:
     sort_by: sequence_id
     output: true
+  volunteers:
+    sort_by: sequence_id
+    output: true
   chairs:
     output: true
   reviewers:
