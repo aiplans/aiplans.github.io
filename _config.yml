@@ -35,15 +35,15 @@ plugins:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+- schedule.md
+- papers.md
 #- index.md
-- speakers.md
+#- speakers.md
 - organizers.md
 - chairs.md
 - reviewers.md
 #- callforpapers.md
-- schedule.md
 #- getinvolved.md
-- papers.md
 - contact.md
 
 # # Specify the name of a file to show as a masthead graphic at the top of each page, instead of a title, here:
