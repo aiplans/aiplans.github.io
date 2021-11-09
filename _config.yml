@@ -70,6 +70,7 @@ collections:
     sort_by: sequence_id
     output: true
   chairs:
+    sort_by: sequence_id
     output: true
   reviewers:
     sort_by: sequence_id
