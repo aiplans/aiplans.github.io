@@ -35,7 +35,7 @@ plugins:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-- index.md
+#- index.md
 - speakers.md
 - organizers.md
 - chairs.md
