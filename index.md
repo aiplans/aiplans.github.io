@@ -32,37 +32,34 @@ Our workshop brings together researchers from various backgrounds.  We believe d
 
 [comment]: <> (Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those same programs to drive innovation in higher-order AD and probabilistic programming is a now virtuous cycle. We envision cooperation between automatic and synthetic programming will continue to grow as researchers become more accustomed to outsourcing low-level reasoning tasks to these systems.)
 
-We would be excited to see submissions similar to or building on the following non-exhaustive list of topics:
+## High-Level Themes
 
-* Algorithms for automatic differentiation and inference in ML systems:
+Specifically, AIPLANS seeks to encourage research and highlight recent advances among the following list of topics:
+
+* Neural program synthesis (e.g., search-based, syntax or execution-guided)
+  * Improvements to [RobustFill](https://arxiv.org/abs/1703.07469), [DeepCoder](https://arxiv.org/abs/1611.01989) or applications such as [Naturalizing A Programming Language Via Interactive Learning](https://arxiv.org/pdf/1704.06956.pdf)
+* Bayesian program learning (e.g., higher-order probabilistic programming)
+* Neural-symbolic reasoning (e.g., automated program verification and testing)
+  * [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
+* Neural program extraction (e.g., procedural or relational knowledge distillation)
+* Induction of formal languages (e.g., grammar inference, automata extraction)
+* Natural language programming (e.g., machine teaching, programming by example)
+* New programming languages for reasoning (e.g., Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [L∃∀N](https://leanprover.github.io/about/), et al.)
+    * Neural networks and programming methods, e.g., [Dynamical systems that sort lists, diagonalize matrices and solve linear programming problems](http://hrl.harvard.edu/publications/brockett88dynamical.pdf), [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
+* New programming languages for learning (e.g., [JAX](https://github.com/google/jax), [Dex](https://github.com/google-research/dex-lang), [HaskTorch](https://github.com/hasktorch/hasktorch), et al.)
+* New programming languages for probability (e.g., [Stan](https://github.com/stan-dev/stan), [Edward](https://github.com/blei-lab/edward), [PyMC3](https://github.com/pymc-devs/pymc3), [Pyro](https://github.com/pyro-ppl/pyro), [torch-struct](https://arxiv.org/abs/2002.00876))
+* Programing language theory (e.g., type theory, category theory, denotational semantics)
+* Satisfiability checking and symbolic computation (e.g. SAT/SMT solving, boolean circuits)
+* Calculus and equational reasoning (e.g., λ-calculus, π-calculus, tensor and combinator calculi)
+    * [Differential linear logic](https://arxiv.org/pdf/1606.01642.pdf), [differential lambda calculus](https://core.ac.uk/download/pdf/82396223.pdf)
+* Logic and relational programming (e.g., Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [Lean](https://leanprover.github.io/about/), et al.)
+* Inference algorithms (e.g., backpropagation, belief propagation, survey propagation et al.)
   * [Inside-Outside and Forward-Backward Algorithms](https://www.cs.jhu.edu/~jason/papers/eisner.spnlp16.pdf)
   * [Categorical Foundations of Gradient-Based Learning](https://arxiv.org/abs/2103.01931)
-* Design of tools for automatic differentiation:
-  * New features in [JAX](https://github.com/google/jax), [Dex](https://github.com/google-research/dex-lang), [HaskTorch](https://github.com/hasktorch/hasktorch), et al.
-* Development of neurosymbolic based reasoning systems, e.g.:
-  * Work building on [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
-* Program synthesis:
-  * Improvements to [RobustFill](https://arxiv.org/abs/1703.07469), [DeepCoder](https://arxiv.org/abs/1611.01989) or applications such as [Naturalizing A Programming Language Via Interactive Learning](https://arxiv.org/pdf/1704.06956.pdf)
-* Probabilistic Programming:
-  * [Deep Probabilistic Programming](https://arxiv.org/abs/1701.03757), [Stochastic Processes as Concurrent Constraint Programs](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.7979&rep=rep1&type=pdf)
-  * Probabilistic programming frameworks, e.g., [Stan](https://github.com/stan-dev/stan), [Edward](https://github.com/blei-lab/edward), [PyMC3](https://github.com/pymc-devs/pymc3), [Pyro](https://github.com/pyro-ppl/pyro), [torch-struct](https://arxiv.org/abs/2002.00876) 
-* Theory of mechanical reasoning and automatic programming languages:
-  * Work which explains the interplay between neural networks and programming methods, e.g., [Dynamical systems that sort lists, diagonalize matrices and solve linear programming problems](http://hrl.harvard.edu/publications/brockett88dynamical.pdf), [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
-  * Functional or array programming, e.g., [Hasktorch](https://github.com/hasktorch/hasktorch), [Strongly-Typed RNNs](https://arxiv.org/abs/1602.02218), [Tangent](https://arxiv.org/abs/1809.09569)
-* Declarative programming / constraint programming
-  * e.g. Neural program synthesis, neural guided program search
-* Dynamic programming / reinforcement learning
-  * e.g. [Semiring programming](https://arxiv.org/pdf/1609.06954.pdf), [probabilistic programming](https://arxiv.org/pdf/2005.09089v3.pdf)
-* Functional programming / λ-calculus
-  * [Differential linear logic](https://arxiv.org/pdf/1606.01642.pdf), [differential lambda calculus](https://core.ac.uk/download/pdf/82396223.pdf)
-* Array programming / linear algebra
-  * Tensor-based libraries and frameworks, e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum)
-* Logic programming / Relational programming
-  * Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [Lean](https://leanprover.github.io/about/)
-* Computer aided reasoning / automatic theorem proving
-* Domain-specific languages and compilers
-* Inductive programming / programming by example
+* Array programming (e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum), [Naperian Functors](https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/aplicative.pdf), [pointful](https://arxiv.org/pdf/2104.05372.pdf, et al.)
+* Dynamic programming and reinforcement learning (e.g. [Semiring programming](https://arxiv.org/pdf/1609.06954.pdf), [probabilistic programming](https://arxiv.org/pdf/2005.09089v3.pdf))
+    * [Deep Probabilistic Programming](https://arxiv.org/abs/1701.03757), [Stochastic Processes as Concurrent Constraint Programs](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.7979&rep=rep1&type=pdf)
 
-Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to consider submitting ongoing work that may be relevant to machine learning community.
+Developers of languages, frameworks and libraries, including those who traditionally publish in venues such as SIGPLAN and SIGSOFT are encouraged to share ongoing work that would also be relevant to machine learning community.
 
-AIPLANS is brought to you in collaboration with the organizers of the [Differentiable Programming Workshop](https://diffprogramming.mit.edu/) at NeurIPS 2021. We share their enthusiasm for differentiable and probabilistic programming and see many applications towards program synthesis and symbolic reasoning. Those with similar interests are highly encouraged to participate in both workshops.  Prospective authors should submit their work to the most relevant venue, as dual submissions will be evaluated once.
+AIPLANS is brought to you in collaboration with the organizers of the [Differentiable Programming Workshop](https://diffprogramming.mit.edu/) at NeurIPS 2021. We share their enthusiasm for differentiable and probabilistic programming and see many applications towards program synthesis and symbolic reasoning. Those with similar interests are highly encouraged to participate in both workshops, to be held on consecutive days (Dec. 13th and 14th, 2021).
