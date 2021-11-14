@@ -35,15 +35,19 @@ Our workshop brings together researchers from various backgrounds.  We believe d
 Specifically, AIPLANS seeks to encourage research and highlight recent advances among the following list of topics:
 
 * Neural program synthesis (e.g., search-based, syntax or execution-guided)
-  * Improvements to [RobustFill](https://arxiv.org/abs/1703.07469), [DeepCoder](https://arxiv.org/abs/1611.01989) or applications such as [Naturalizing A Programming Language Via Interactive Learning](https://arxiv.org/pdf/1704.06956.pdf)
+  * [Neural Program Learning under Noisy I/O](https://arxiv.org/abs/1703.07469),
+  * [Solving programming competition-style problems from I/O examples](https://arxiv.org/abs/1611.01989)
+  * [Naturalizing A Programming Language Via Interactive Learning](https://arxiv.org/pdf/1704.06956.pdf)
 * Bayesian program learning (e.g., higher-order probabilistic programming)
 * Neural-symbolic reasoning (e.g., automated program verification and testing)
-  * [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279), [Programmable Agents](https://arxiv.org/pdf/1706.06383.pdf)
+  * [Neural Programmer-Interpreters](https://arxiv.org/abs/1511.06279),
+  * [Agents that execute declarative programs](https://arxiv.org/pdf/1706.06383.pdf)
 * Neural program extraction (e.g., procedural or relational knowledge distillation)
 * Induction of formal languages (e.g., grammar inference, automata extraction)
 * Natural language programming (e.g., machine teaching, programming by example)
 * New programming languages for reasoning (e.g., Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [L∃∀N](https://leanprover.github.io/about/), et al.)
-    * Neural networks and programming methods, e.g., [Dynamical systems that sort lists, diagonalize matrices and solve linear programming problems](http://hrl.harvard.edu/publications/brockett88dynamical.pdf), [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
+    * [Dynamical systems that sort lists](http://hrl.harvard.edu/publications/brockett88dynamical.pdf)
+    * [Thinking Like Transformers](https://arxiv.org/abs/2106.06981)
 * New programming languages for learning (e.g., [JAX](https://github.com/google/jax), [Dex](https://github.com/google-research/dex-lang), [HaskTorch](https://github.com/hasktorch/hasktorch), et al.)
 * New programming languages for probability (e.g., [Stan](https://github.com/stan-dev/stan), [Edward](https://github.com/blei-lab/edward), [PyMC3](https://github.com/pymc-devs/pymc3), [Pyro](https://github.com/pyro-ppl/pyro), [torch-struct](https://arxiv.org/abs/2002.00876))
 * Programing language theory (e.g., type theory, category theory, denotational semantics)
@@ -52,7 +56,7 @@ Specifically, AIPLANS seeks to encourage research and highlight recent advances 
   * [Bridging deep learning and logical reasoning](https://arxiv.org/pdf/1905.12149.pdf)
   * [Learning a SAT Solver from Single-Bit Supervision](https://arxiv.org/pdf/1802.03685.pdf)
 * Calculus and equational reasoning (e.g., λ-calculus, π-calculus, tensor and combinator calculi)
-    * [Differential linear logic](https://arxiv.org/pdf/1606.01642.pdf), [differential lambda calculus](https://core.ac.uk/download/pdf/82396223.pdf)
+  * [Differential linear logic](https://arxiv.org/pdf/1606.01642.pdf), [differential lambda calculus](https://core.ac.uk/download/pdf/82396223.pdf)
 * Logic and relational programming (e.g., Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [Lean](https://leanprover.github.io/about/), et al.)
 * Inference algorithms (e.g., backpropagation, belief propagation, survey propagation et al.)
   * [Inside-Outside and Forward-Backward Algorithms](https://www.cs.jhu.edu/~jason/papers/eisner.spnlp16.pdf)
