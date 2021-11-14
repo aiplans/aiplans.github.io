@@ -32,8 +32,6 @@ Our workshop brings together researchers from various backgrounds.  We believe d
 
 [comment]: <> (Applying techniques from programmable inference to transform and generate programs, and adapting insights gained developing those same programs to drive innovation in higher-order AD and probabilistic programming is a now virtuous cycle. We envision cooperation between automatic and synthetic programming will continue to grow as researchers become more accustomed to outsourcing low-level reasoning tasks to these systems.)
 
-## High-Level Themes
-
 Specifically, AIPLANS seeks to encourage research and highlight recent advances among the following list of topics:
 
 * Neural program synthesis (e.g., search-based, syntax or execution-guided)
@@ -52,6 +50,7 @@ Specifically, AIPLANS seeks to encourage research and highlight recent advances 
   * [Categorical Foundations of Gradient-Based Learning](https://arxiv.org/abs/2103.01931)
 * Satisfiability checking and symbolic computation (e.g. SAT/SMT solving, boolean circuits)
   * [Bridging deep learning and logical reasoning](https://arxiv.org/pdf/1905.12149.pdf)
+  * [Learning a SAT Solver from Single-Bit Supervision](https://arxiv.org/pdf/1802.03685.pdf)
 * Calculus and equational reasoning (e.g., λ-calculus, π-calculus, tensor and combinator calculi)
     * [Differential linear logic](https://arxiv.org/pdf/1606.01642.pdf), [differential lambda calculus](https://core.ac.uk/download/pdf/82396223.pdf)
 * Logic and relational programming (e.g., Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [Lean](https://leanprover.github.io/about/), et al.)
