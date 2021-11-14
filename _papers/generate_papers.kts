@@ -3,7 +3,7 @@ import java.lang.ProcessBuilder.Redirect
 import java.util.concurrent.TimeUnit
 
 val papers = """
-title: 💡[Meta-Learning an Inference Algorithm for Probabilistic Programs](https://arxiv.org/pdf/2103.00737.pdf)  
+title: 💡[Meta-Learning an Inference Algorithm for Probabilistic Programs](https://openreview.net/forum?id=--P3fHFWJeF)  
 authors: [Gwonsoo Che](https://sites.google.com/view/gwonsoo-che), [Hongseok Yang](https://sites.google.com/view/hongseokyang/home)  
 img: metalearn_pp.png  
 
@@ -51,7 +51,7 @@ title: [A Genetic Programming Approach To Zero-Shot Neural Architecture Ranking]
 authors: [Yash Akhauri](https://akhauriyash.github.io/), [Juan Pablo Munoz](https://www.intel.ca/content/www/ca/en/research/researchers/j--pablo-munoz.html), [Ravishankar Iyer](https://scholar.google.com/citations?user=2rO3ZvEAAAAJ), [Nilesh Jain](https://scholar.google.com/citations?user=sWUGELEAAAAJ)
 img: genetic_programming.png
 
-title: [Learning compositional programs with arguments and sampling](https://arxiv.org/pdf/2109.00619.pdf)
+title: [Learning compositional programs with arguments and sampling](https://openreview.net/forum?id=KUWjNgo2Gm9)
 authors: [Giovanni De Toni](https://detoni.me/), [Luca Erculiani](https://scholar.google.com/citations?user=kzYHFWMAAAAJ), [Andrea Passerini](https://disi.unitn.it/~passerini/)
 img: learn_cps.png
 
@@ -79,7 +79,7 @@ title: [AutoCoder: Leveraging Transformers for Automatic Code Synthesis](https:/
 authors: [Mrinal Anand](https://kaiyon07.github.io/), [Pratik Kayal](https://scholar.google.com/citations?user=WOrOyp4AAAAJ), [Mayank Singh](https://mayank4490.github.io/)
 img: autocoder.png
 
-title: [Learning C to x86 Translation: An Experiment in Neural Compilation](https://arxiv.org/pdf/2108.07639.pdf) / [code](https://github.com/jordiae/neural-compilers)
+title: [Learning C to x86 Translation: An Experiment in Neural Compilation](https://openreview.net/forum?id=444ug_EYXet) / [code](https://github.com/jordiae/neural-compilers)
 authors: [Jordi Armengol-Estapé](https://scholar.google.es/citations?user=CiHoJfcAAAAJ), [Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/)
 img: c2x86_trans.png
 """.trimIndent()
