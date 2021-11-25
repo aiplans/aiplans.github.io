@@ -6,5 +6,5 @@ affil: Princeton
 affil_link: https://www.cs.princeton.edu/
 img: ryan.png
 title: Randomized Automatic Differentiation
-time: 1300 - 1400
+time: 1330 - 1400
 ---
