@@ -15,7 +15,7 @@ AIPLANS (Advances in Programming Languages and Neurosymbolic Systems): a new wor
 
 * **Paper submission deadline**: Oct. 4th, 2021 AoE
 * **Reviews released**: Oct. 23rd, 2021
-* **Camera-ready deadline**: Dec. 10, 2021 AoE
+* **Camera-ready deadline**: Dec. 1st, 2021 AoE
 * **Workshop date**: Dec. 14th, 2021
 
 Our workshop brings together researchers from various backgrounds.  We believe developing neurosymbolic systems will require engineers, designers and theorists from statistical learning and programming language research.
