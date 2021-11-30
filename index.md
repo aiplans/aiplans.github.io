@@ -60,7 +60,7 @@ Specifically, AIPLANS seeks to encourage research and highlight recent advances 
 * Logic and relational programming (e.g., Prolog, Datalog, [miniKanren](http://minikanren.org/), [HOL](https://hol-theorem-prover.org/), [LF/Twelf](http://twelf.org/wiki/LF), [Lean](https://leanprover.github.io/about/), et al.)
 * Inference algorithms (e.g., backpropagation, belief propagation, survey propagation et al.)
   * [Inside-Outside and Forward-Backward Algorithms](https://www.cs.jhu.edu/~jason/papers/eisner.spnlp16.pdf)
-* Array programming (e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum), [Naperian Functors](https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/aplicative.pdf), [pointful](https://arxiv.org/pdf/2104.05372.pdf, et al.)
+* Array programming (e.g. [TensorNetwork](https://github.com/google/TensorNetwork), [opt_einsum](https://github.com/dgasmith/opt_einsum), [Naperian Functors](https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/aplicative.pdf), [pointful](https://arxiv.org/pdf/2104.05372.pdf), et al.)
 * Dynamic programming and reinforcement learning (e.g. [Semiring programming](https://arxiv.org/pdf/1609.06954.pdf), [probabilistic programming](https://arxiv.org/pdf/2005.09089v3.pdf))
     * [Deep Probabilistic Programming](https://arxiv.org/abs/1701.03757), [Stochastic Processes as Concurrent Constraint Programs](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.44.7979&rep=rep1&type=pdf)
 
