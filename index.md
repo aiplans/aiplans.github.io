@@ -9,14 +9,18 @@ layout: home
 
 <p align="center">
   <img src="logo.png" width="30%"/>
+  
+  **Dec. 14th, 2021**: <a href="https://neurips.cc/virtual/2021/workshop/21831">Held virtually here!</a>
 </p>
 
 AIPLANS (Advances in Programming Languages and Neurosymbolic Systems): a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
+
 
 * **Paper submission deadline**: Oct. 4th, 2021 AoE
 * **Reviews released**: Oct. 23rd, 2021
 * **Camera-ready deadline**: Dec. 1st, 2021 AoE
 * **Workshop date**: Dec. 14th, 2021
+
 
 Our workshop brings together researchers from various backgrounds.  We believe developing neurosymbolic systems will require engineers, designers and theorists from statistical learning and programming language research.
 
