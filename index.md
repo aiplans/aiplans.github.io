@@ -7,10 +7,10 @@ title:
 layout: home
 ---
 
+> [Please click here to join us virtually on **Tuesday, December 14th, 2021**!](https://neurips.cc/virtual/2021/workshop/21831)
+
 <p align="center">
   <img src="logo.png" width="30%"/>
-  
-  **Dec. 14th, 2021**: <a href="https://neurips.cc/virtual/2021/workshop/21831">Held virtually here!</a>
 </p>
 
 AIPLANS (Advances in Programming Languages and Neurosymbolic Systems): a new workshop at NeurIPS 2021 fusing ML with programming theory to create neurosymbolic program-writing machines!
