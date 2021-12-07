@@ -7,7 +7,7 @@ title:
 layout: home
 ---
 
-> [Please click here to join us virtually on **Tuesday, December 14th, 2021**!](https://neurips.cc/virtual/2021/workshop/21831)
+> [Click here to join us virtually on **Tuesday, December 14th, 2021**!](https://neurips.cc/virtual/2021/workshop/21831) Please note that you must be [registered](https://neurips.cc/Register/view-registration) in order to attend this workshop. If you are unable to do so for financial reasons, please [let us know](https://docs.google.com/forms/d/1Ae2kqgUiaPX-dPDrzRQpJZ5BUMKaOpL3T7bXarcBQ08/edit) and we may be able to assist.
 
 <p align="center">
   <img src="logo.png" width="30%"/>
