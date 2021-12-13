@@ -6,5 +6,5 @@ affil: USC
 affil_link: https://www.usc.edu/
 img: shaohua.jpg
 title: Learning to Synthesize Programs as Interpretable and Generalizable Policies
-time: 1800 - 1815
+time: 1700 - 1715
 ---
