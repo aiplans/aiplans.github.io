@@ -1,5 +1,5 @@
 ---
-sequence_id: 6
+sequence_id: 8
 speaker: David Duvenaud
 webpage: http://www.cs.toronto.edu/~duvenaud/
 affil: University of Toronto

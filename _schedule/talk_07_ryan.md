@@ -1,5 +1,5 @@
 ---
-sequence_id: 6
+sequence_id: 7
 speaker: Ryan Adams
 webpage: https://www.cs.princeton.edu/~rpa/
 affil: Princeton
