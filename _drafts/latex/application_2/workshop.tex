@@ -31,12 +31,15 @@
 \usepackage{xcolor}         % colors
 \usepackage{tabularx}
 \usepackage{array}
+\usepackage{multicol}
 
 \usepackage{float}
 \usepackage{pgf}
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata,snakes}
 \usepackage{rotating}
+
+\setlength{\columnsep}{0pt}
 
 \usepackage{abstract}
 \renewcommand{\abstractname}{}    % clear the title
@@ -69,18 +72,30 @@
         \textbf{Tagline:} AIPLANS: Fusing ML with programming language theory to create neurosymbolic programming machines! \url{https://aiplans.github.io} % Are you curious whether machines can write programs that are both sound and interpretable? Come check out AIPLANS, a new workshop on domain-specific languages for learning and synthetic reasoning, to be hosted at NeurIPS 2021!
     \end{abstract}
 
-    What was once a niche topic in machine learning is starting to evolve into a broader movement, with summer schools, workshops and panels around the world (TODO: citations). Since the inaugural AIPLANS workshop in 2021, much progress has been made on bridging the two worlds of machine learning and programming language theory. Language models have become more effective, and the applications have been abundant. But doubts about their safety and reliability linger. Machine learning is generally concerned with robustness, generalization and scalability, while programming languages care deeply about correctness, soundness and interpretability. Can we have the best of both worlds? In a series of invited talks, contributed papers, and panel discussions, we plan to explore the intersection of machine learning and programming languages. In particular, we are interested in some of the following topics:
+    What was once a niche topic in machine learning has catalyzed a broader movement, with summer schools~\cite{munawar2023neurosymbolic,costilla2024neurosymbolic}, workshops~\cite{besold2023nesy, belle2023neurosys,llievski2024neurosymbolic} and journals~\cite{tarek2023neurosymbolic} across the globe. Since the first AIPLANS workshop at NeurIPS 2021, considerable progress has been made on reuniting the branching diciplines of machine learning and programming language theory. From the first wave of symbolic AI emerged type systems, model checkers, and automated theorem provers. And from early connectionist techniques came the current generation of neural networks, loosely inspired by biological systems. By fusing the insights from neural and symbolic AI, neurosymbolism hopes to align the tinkering strategy of computational biology with the explainability and rigour of the symbolic method.
 
-    \begin{itemize}
+    Today's language models have grown more capable and spawned a cottage industry of applications. But doubts about their safety and reliability still linger. Machine learning is generally concerned with naturalness, generalization and scalability, while programming languages care much more deeply about soundness, completeness and interpretability. Can we have the best of both worlds? In a series of invited talks, contributed papers, and panel discussions, we plan to explore the intersection of machine learning and programming languages, with a particular focus on the following areas:
+
+    \begin{multicols}{2}
+     \begin{itemize}
+        \item Probabilistic model checking
         \item Language induction
-        \item Program synthesis
-        \item Automata theory
-        \item Probabilistic programming
+        \item Proof search and program synthesis
+        \item Rewriting systems
+        \item Analytic combinatorics
+        \item Computational group theory
+        \item Vector symbolic architectures
+        \item Automata and formal language theory
+        \item Formal aspects of language modeling~\cite{cotterell2023formal}
+        \item Constrained sampling from LLMs
         \item Randomized complexity
-        \item Language games
-        \item Proof assistants
-        \item Types and semantics
+        \item Algorithmic information theory
+        \item Circuit lower bounds
+        \item Reachability problems
+        \item Proof assistance and automation
+        \item Type theory and semantics
     \end{itemize}
+    \end{multicols}
 
     \clearpage
 
