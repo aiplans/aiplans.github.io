@@ -57,10 +57,10 @@
 % \AND instead of \And before the third author name.
 
 \author{%
-  Jialu Bao$^3$, Maddy Bowers$^2$, Breandan Considine$^{1, 9}$, \\\textbf{Younesse Kaddar$^{5, 10}$, Justine Gehring$^{9, 11}$, Shawn Tan$^{4, 9}$} \\
+  Jialu Bao$^3$, Maddy Bowers$^2$, Breandan Considine$^{1, 10}$, \\\textbf{Younesse Kaddar$^{5, 11}$, Justine Gehring$^{9, 12}$, Shawn Tan$^{4, 10}$} \\
 %    \texttt{\{considib, shrivast, huidavid, tanjings\}@mila.quebec} \\
-    David Chiang$^6$, Kolya Malkin$^7$, Xujie Si$^{8, 12}$\\
-    McGill$^1$, MIT$^2$, Cornell$^3$, Universit\'e de Montr\'eal$^4$, Oxford$^{5}$, Notre Dame$^6$,\\University of Toronto$^7$, University of Edinburgh$^8$, Mila$^9$, Cohere$^{10}$, Moderne$^{11}$, Vector$^{12}$
+    David Chiang$^6$, Parisa Kordjamshidi$^$, Kolya Malkin$^7$, Xujie Si$^{8, 12}$\\\\
+    McGill$^1$, MIT$^2$, Cornell$^3$, Universit\'e de Montr\'eal$^4$, Oxford$^{5}$, Notre Dame$^6$,\\University of Toronto$^7$, Michigan State University$^8$, University of Edinburgh$^9$,\\Mila$^{10}$, Cohere$^{11}$, Moderne$^{12}$, Vector$^{13}$
 }
 
 \begin{document}
@@ -72,9 +72,11 @@
         \textbf{Tagline:} AIPLANS: Fusing machine learning with programming language theory to create neurosymbolic programming machines! \url{https://aiplans.github.io} % Are you curious whether machines can write programs that are both sound and interpretable? Come check out AIPLANS, a new workshop on domain-specific languages for learning and synthetic reasoning, to be hosted at NeurIPS 2021!
     \end{abstract}
 
-    What was once a fringe topic in machine learning has catalyzed a broader movement, with summer schools~\cite{munawar2023neurosymbolic,costilla2024neurosymbolic}, workshops~\cite{besold2023nesy, belle2023neurosys,llievski2024neurosymbolic} and journals~\cite{tarek2023neurosymbolic} across the globe. Since the first AIPLANS workshop at NeurIPS 2021, considerable progress has been made on reuniting the branching diciplines of machine learning and programming language theory. From the first wave of symbolic AI emerged type systems, model checkers, and automated theorem provers. And from early connectionist techniques came the current generation of neural networks, loosely inspired by biological systems. By fusing the insights from neural and symbolic AI, neurosymbolism hopes to align the tinkering strategy of computational biology with the explainability and rigour of the symbolic method.
+   Since the first AIPLANS workshop at NeurIPS 2021, rapid progress has been made on uniting the two forked branches of computer science: machine learning and automated reasoning. What was once a fringe research area has begun to catalyze a broader movement, with summer schools~\cite{munawar2023neurosymbolic, costilla2024neurosymbolic}, workshops~\cite{besold2023nesy, belle2023neurosys, munawar2024neurosymbolic, llievski2024neurosymbolic} and tutorials~\cite{palangi2022tutorial, chaudhuri2023poplneurosym, shakarian2024tutorial} dedicated to neurosymbolic research in recent years. From the connectionists, descended the present generation of approximate reasoning systems, inspired by biological systems and immersed in probability, statistics and linear algebra. And from the symbolists came programming languages, compilers, and automated theorem provers, powering the digital revolution which made this endevor even possible.
 
-    Today's language models have grown more capable and spawned a cottage industry of applications. But doubts about their safety and reliability still linger. Machine learning is generally concerned with naturalness, generalization and scalability, while programming languages care much more deeply about soundness, completeness and interpretability. Can we have the best of both worlds? In a series of invited talks, contributed papers, and panel discussions, we plan to explore the intersection of machine learning and programming languages, with a particular focus on the following areas:
+%    Machine learning, though powerful, is generally concerned with naturalness, generalization and scalability, while programming languages care much more deeply about soundness, completeness and interpretability.
+
+    AIPLANS seeks to harness the emergent capabilities of neural networks with the explainability and rigor of the symbolic method, taking inspiration from the experimentalist, language designer, programming enthusiast, and formalist alike. How do we build systems with the prowess of large language models while retaining the safety and trustworthiness of programming langauges? Can we make them flexible enough to behave naturally whilst simple enough to be interpretable? How do we guaratnee these systems plan and act safely amidst humans? In this year's AIPLANS, we aim to explore these questions with special focus on \textit{program synthesis} -- human-readable and mechanically verifiable specifications that can be interpreted by a computer. In a series of invited talks, contributed papers, and panel discussions, we plan to cover some of the following areas:
 
     \begin{multicols}{2}
      \begin{itemize}
@@ -85,7 +87,7 @@
         \item Analytic combinatorics
         \item Computational group theory
         \item Vector symbolic architectures
-        \item Automata and formal language theory
+        \item Automata and formal grammars
         \item Formal aspects of language modeling~\cite{cotterell2023formal}
         \item Constrained sampling from LLMs
         \item Randomized complexity
@@ -143,15 +145,15 @@
     \section*{Proposed Workshop Logistics}
 
     % A description of special requirements and technical needs.
-    AIPLANS will be a one-day in-person workshop welcoming an economically and geographically diverse audience to participate. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a poster session. Proceedings will be non-archival. Outside of standard videoconferencing and SlidesLive assistance, we anticipate no other technical requirements. If accepted, we expect to receive a hundred or so participants, including speakers and workshop submitters, based on attendance at similarly-themed workshops in prior years. A partial list of speakers who have confirmed their presence (pending workshop acceptance) follows:
+    AIPLANS will be a one-day in-person workshop with live talks and panels. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a poster session. Proceedings will be non-archival. Outside of standard videoconferencing and SlidesLive assistance, no other technical requirements are necessary. If accepted, we anticipate receiving roughly 200 participants, including speakers and workshop submitters, based on attendance at similarly-themed workshops in prior years and NeurIPS 2021.
 
-    \begin{center}
-        \begin{tabular}{ c c c }
-            \href{https://www.cse.msu.edu/~kordjams/}{Parisa Kordjamshidi}
-        \end{tabular}
-    \end{center}
-
-
+%    . A partial list of speakers who have confirmed their presence (pending workshop acceptance) follows:
+%
+%    \begin{center}
+%        \begin{tabular}{ c c c }
+%            \href{https://www.cse.msu.edu/~kordjams/}{Parisa Kordjamshidi}
+%        \end{tabular}
+%    \end{center}
 
     % A list of invited speakers, if applicable, with an indication of which ones have already agreed and which are indicative.
     % We plan to invite four keynote speakers.  Three system developers, and one programming language theoretician.  TODO:
@@ -159,16 +161,11 @@
     %     \item
     % \end{itemize}
 
-
-
-    The workshop itself will run for approximately eight hours during daylight saving time on five continents, and feature up to four 45-minute keynote talks and up to six 20-minute contributed talks. In addition, AIPLANS will solicit four-page paper submissions in a CFP to be circulated pending workshop acceptance. To encourage submissions from the broader ML/PL community, accepted authors will be given an opportunity to showcase their work in a virtual poster session or lightning talk for outstanding contributions. We expect to receive 20-30 submissions in total, and pledge that each paper will receive at least two fair and independent reviews. To minimize potential conflicts of interest, AIPLANS will manage submissions via the \href{https://openreview.net}{OpenReview} conference management system.
-
-
+    The workshop itself will run for approximately eight hours, featuring four 45-minute contributed talks and up to six 20-minute contributed talks. In addition, AIPLANS will solicit four-page paper submissions in a CFP to be circulated pending workshop acceptance. To encourage submissions from the broader ML/PL community, accepted authors will be given an opportunity to showcase their work in a poster session or oral for outstanding contributions. We expect to receive 30-40 submissions, and pledge that each paper will receive at least two fair and independent reviews. To minimize potential conflicts of interest, AIPLANS will manage submissions via \href{https://openreview.net}{OpenReview}.
 
     % An account of the efforts made to ensure diversity of the organizers and speakers (WiML, Black in AI, and LXAI directories, among others, may be a useful resource). Also an account of any efforts to include diverse participants (e.g., via mentoring, subsidies, or the wording and topics in the CFP).
 
-
-    Those who traditionally publish in venues such as SIGPLAN, SIGSOFT and other ACM venues are encouraged to submit work that may be considered relevant to the machine learning and reasoning community, provided that effort is taken to ensure its accessibility. Special consideration will be given to didactic submissions of outstanding clarity. Further information, including evaluation criteria, examples of relevant literature, deadlines and workshop logistics will be provided for reference.
+    Those who traditionally publish in venues such as SIGPLAN, SIGSOFT and other ACM venues are encouraged to submit work they consider relevant to a machine learning audience, provided that effort is taken to ensure its accessibility. Special consideration will be given to pedagogical submissions of outstanding clarity. Further information, including evaluation criteria, examples of relevant literature, deadlines and workshop logistics will be provided for reference.
 
     %   By submitting a workshop proposal, workshop organizers commit to notifying those who submit contributions (including talks and posters) to the workshop of their acceptance status before Oct 22, 2021. A timeline should be included in the proposal that will allow for this.
 
@@ -204,7 +201,7 @@
         \caption{A tentative timeline for our proposed workshop at NeurIPS 2024.}
     \end{figure}
 
-    If accepted, AIPLANS will announce its CFP and pursue contributions from the broader ML/PL community shortly thereafter. Two months later, the CFP will close on Sept. 17\textsuperscript{th}. This deadline may be extended to no later than Sept. 24\textsuperscript{th}, depending on the volume of submissions received, leaving sufficient time for referees and program chairs to leave feedback. Authors will be notified of acceptance no later than Oct. 22\textsuperscript{nd}. We intend to finalize the schedule and coordinate presentation logistics between Nov. and Dec. 14\textsuperscript{th}. Those who wish to prerecord talks will be given an opportunity to do so. The final workshop will consist of prerecorded and live talks with Q\&A, followed by a moderated panel, and virtual poster session hosted on \href{https://gather.town}{Gather.town}. Further details about schedule and logistics will be made available, pending acceptance at: \url{https://aiplans.github.io}.
+    If accepted, AIPLANS will announce its CFP and pursue contributions from the broader ML/PL community shortly thereafter. Two months later, the CFP will close on Sept. 17\textsuperscript{th}. This deadline may be extended to no later than Sept. 24\textsuperscript{th}, depending on the volume of submissions received, leaving sufficient time for referees and program chairs to give feedback. Authors will be notified of acceptance no later than Oct. 22\textsuperscript{nd}. We intend to finalize the schedule and coordinate presentation logistics between Nov. and Dec. 14\textsuperscript{th}. Those who wish to prerecord talks will be given an opportunity to do so. The final workshop will consist of prerecorded and live talks with Q\&A, followed by a moderated panel, and virtual poster session hosted on \href{https://gather.town}{Gather.town}. Further details about schedule and logistics will be made available, pending acceptance at: \url{https://aiplans.github.io}.
 
     AIPLANS is an equal-opportunity workshop that celebrates cultural, linguistic, ethnic and intellectual diversity in all forms. Not only are we committed to nondiscrimination on the basis of, e.g., race, creed, age, gender, orientation, physical or mental handicap, but also aim to encourage individuals from other disadvantaged and underrepresented socioeconomic backgrounds to participate. Should our workshop be accepted, scholarships covering the cost of registration will be extended for those who wish to attend but would otherwise be unable to do so due to financial hardship. If needed, AIPLANS may pursue industry sponsorship for this initiative to enable a wider audience to attend. Further details about registration and funding availability will be provided in a timely manner.
 
@@ -242,11 +239,11 @@
             \begin{tabular}{ c p{10.5cm}}
                 \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/david}} & \textbf{David Chiang} is a Professor at Notre Dame University. His research is in natural language processing, the subfield of computer science that aims to enable computers to understand and produce human language. He focuses mainly on language translation, and has interests in syntactic parsing and other areas as well. \vspace*{0.1cm}\newline \faHome \,\url{https://www3.nd.edu/~dchiang/} \faTwitter \href{https://x.com/davidweichiang}{ @davidweichiang} \\\\\\
 
-                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/parisa}} & \textbf{Parisa Kordjamshidi} is an assistant professor at Michigan State University and director of the Heterogeneous Learning and Reasoning (HLR) lab. Her main research interests are artificial intelligence, machine learning, natural language processing, and declarative learning based programming (DeLBP). She works on the extraction of formal semantics and structured representations from natural language, with a specific focus on spatial semantics representation and structured output learning models. \vspace*{0.1cm}\newline \faHome \,\url{https://www.cse.msu.edu/~kordjams/} \\\\\\
+                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/parisa}} & \textbf{Parisa Kordjamshidi} is an assistant professor at Michigan State University and director of the Heterogeneous Learning and Reasoning (HLR) lab. Her main research interests are artificial intelligence, machine learning, natural language processing, and declarative learning based programming (DeLBP). She works on the extraction of formal semantics and structured representations from natural language, with a specific focus on spatial semantics representation and structured output learning models. \vspace*{0.1cm}\newline \faHome \,\url{https://www.cse.msu.edu/~kordjams/} \faTwitter \href{https://x.com/Kordjamshidi}{ @Kordjamshidi} \\\\\\
 
                 \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/kolya}} & \textbf{Kolya Malkin} is an Associate Professor at the University of Edinburgh working on algorithms for deep-learning-based reasoning and their applications, in particular  induction of compositional structure in generative models, modeling of posteriors over high-dimensional explanatory variables, uncertainty-aware explanations for observed data, human-like symbolic, formal, and mathematical reasoning and tracking land use patterns over time and monitoring the effects of climate change. \vspace*{0.1cm}\newline \faHome \,\url{https://malkin1729.github.io/} \\\\\\
 
-                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/xujie}} &\textbf{Xujie Si} is an Assistant Professor and Canada CIFAR AI Chair in the School of Computer Science at the University of Toronto and Vector Institute. He finished his Ph.D. in Computer and Information Science at the University of Pennsylvania in 2020, advised by Prof. Mayur Naik. Xujie received his M.S. in computer science from Vanderbilt University in 2014, before which he obtained his B.E. (with Honors) from Nankai Unversity in 2011. He spent the summer of 2019 as a research scientist intern at DeepMind working with Pushmeet Kohli in the Robust AI team. \vspace*{0.1cm}\newline \faHome  \,\url{https://www.cs.mcgill.ca/~xsi} \faTwitter \href{https://twitter.com/xujiesi}{ @XujieSi} \\\\\\
+                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/xujie}} &\textbf{Xujie Si} is an Assistant Professor and Canada CIFAR AI Chair in the School of Computer Science at the University of Toronto and Vector Institute. He finished his Ph.D. in Computer and Information Science at the University of Pennsylvania in 2020, advised by Prof. Mayur Naik. Xujie received his M.S. in computer science from Vanderbilt University in 2014, before which he obtained his B.E. (with Honors) from Nankai Unversity in 2011. \vspace*{0.1cm}\newline \faHome  \,\url{https://www.cs.mcgill.ca/~xsi} \faTwitter \href{https://twitter.com/xujiesi}{ @XujieSi} \\\\\\
 
 %                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/chairs/danny}} & \textbf{Danny Tarlow} is a Research Scientist at the Google Brain team in Montreal. He is primarily interested in machine learning methods for understanding and generating programs, but has broad interests across Machine Learning. Danny is also an Adjunct Professor in the School of Computer Science at McGill University and an associate member at Mila, where he co-supervises a couple PhD students. He holds a PhD from the Machine Learning group at University of Toronto (2013) and before coming to Montreal, spent four years as a postdoc and then researcher at Microsoft Research, Cambridge. \vspace*{0.1cm}\newline \faHome \, \url{https://research.google/people/DannyTarlow} \faTwitter \href{https://twitter.com/dtarlow2}{ @dtarlow2} \\\\\\
 
