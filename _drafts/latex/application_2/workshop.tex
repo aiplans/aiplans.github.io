@@ -46,7 +46,7 @@
 \renewcommand{\absnamepos}{empty} % originally center
 
 
-\title{Advances in Programming Languages\\ and Neurosymbolism (AIPLANS)}
+\title{Advances in Programming Languages\\ and Neurosymbolism (AIPLANS II)}
 
 % The \author macro works with any number of authors. There are two commands
 % used to separate the names and addresses of multiple authors: \And and \AND.
@@ -72,18 +72,20 @@
         \textbf{Tagline:} AIPLANS: Fusing machine learning with programming language theory to create neurosymbolic programming machines! \url{https://aiplans.github.io} % Are you curious whether machines can write programs that are both sound and interpretable? Come check out AIPLANS, a new workshop on domain-specific languages for learning and synthetic reasoning, to be hosted at NeurIPS 2021!
     \end{abstract}
 
-   Since the first AIPLANS workshop at NeurIPS 2021, rapid progress has been made on uniting the two forked branches of computer science: machine learning and automated reasoning. What was once a fringe research area has begun to catalyze a broader movement, with summer schools~\cite{munawar2023neurosymbolic, costilla2024neurosymbolic}, workshops~\cite{besold2023nesy, belle2023neurosys, munawar2024neurosymbolic, llievski2024neurosymbolic} and tutorials~\cite{palangi2022tutorial, chaudhuri2023poplneurosym, shakarian2024tutorial} dedicated to neurosymbolic research in recent years. From the connectionists, descended the present generation of approximate reasoning systems, inspired by biological systems and immersed in probability, statistics and linear algebra. And from the symbolists came programming languages, compilers, and automated theorem provers, powering the digital revolution which made this endevor even possible.
+   Since the first AIPLANS workshop at NeurIPS 2021, rapid progress has been made on uniting the two divergent branches of computer science: machine learning (ML) and programming languages (PL). What was once a fringe research area has begun to catalyze a broader movement, with summer schools~\cite{munawar2023neurosymbolic, costilla2024neurosymbolic}, workshops~\cite{besold2023nesy, belle2023neurosys, munawar2024neurosymbolic, llievski2024neurosymbolic} and tutorials~\cite{palangi2022tutorial, chaudhuri2023poplneurosym, shakarian2024tutorial} dedicated to neurosymbolic research in recent years. From the connectionists, descended the present generation of large langauge models, inspired by biological systems and immersed in probability, statistics and linear algebra. And from the symbolists came programming languages, compilers, and automated theorem provers, powering the digital revolution which made this endevor even possible.
 
 %    Machine learning, though powerful, is generally concerned with naturalness, generalization and scalability, while programming languages care much more deeply about soundness, completeness and interpretability.
 
-    AIPLANS seeks to harness the emergent capabilities of neural networks with the explainability and rigor of the symbolic method, taking inspiration from the experimentalist, language designer, programming enthusiast, and formalist alike. How do we build systems with the prowess of large language models while retaining the safety and trustworthiness of programming langauges? Can we make them flexible enough to behave naturally whilst simple enough to be interpretable? How do we guaratnee these systems plan and act safely amidst humans? In this year's AIPLANS, we aim to explore these questions with special focus on \textit{program synthesis} -- human-readable and mechanically verifiable specifications that can be interpreted by a computer. In a series of invited talks, contributed papers, and panel discussions, we plan to cover some of the following areas:
+    AIPLANS seeks to harness the emergent capabilities of large language models to the explainability and rigor of the symbolic method, taking inspiration from the experimentalist, language designer, programming enthusiast, and formalist alike. But how do we build systems with the prowess of large language models while retaining the safety and trustworthiness of programming langauges? Can we make them flexible enough to behave naturally while simple enough to be interpretable? And how do we guaratnee these systems plan and act safely amidst humans? At AIPLANS, we aim to explore these questions with an eye towards \textit{program synthesis} -- human-readable and mechanically verifiable specifications that can be interpreted by a computer. In a series of invited talks, contributed papers, and panel discussions, we plan to cover some of the following areas:
 
     \begin{multicols}{2}
      \begin{itemize}
         \item Probabilistic model checking
         \item Language induction
         \item Proof search and program synthesis
-        \item Rewriting systems
+        \item Declarative programming
+        \item Constraint satisfaction
+        \item Unification, completion and resolution
         \item Analytic combinatorics
         \item Computational group theory
         \item Vector symbolic architectures
@@ -145,7 +147,7 @@
     \section*{Proposed Workshop Logistics}
 
     % A description of special requirements and technical needs.
-    AIPLANS will be a one-day in-person workshop with live talks and panels. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a poster session. Proceedings will be non-archival. Outside of standard videoconferencing and SlidesLive assistance, no other technical requirements are necessary. If accepted, we anticipate receiving roughly 200 participants, including speakers and workshop submitters, based on attendance at similarly-themed workshops in prior years and NeurIPS 2021.
+    AIPLANS will be a one-day in-person workshop with live talks and panels. Talks will be hosted in English, following the standard format of oral presentations and panel discussions, to be concluded with a poster session. Proceedings will be non-archival. Outside of standard videoconferencing and SlidesLive assistance, no other technical requirements are necessary. We anticipate receiving roughly 200 participants, including speakers and workshop submitters, based on our experience running AIPLANS at NeurIPS 2021 and attendance at similarly-themed workshops in prior years.
 
 %    . A partial list of speakers who have confirmed their presence (pending workshop acceptance) follows:
 %
@@ -161,7 +163,7 @@
     %     \item
     % \end{itemize}
 
-    The workshop itself will run for approximately eight hours, featuring four 45-minute contributed talks and up to six 20-minute contributed talks. In addition, AIPLANS will solicit four-page paper submissions in a CFP to be circulated pending workshop acceptance. To encourage submissions from the broader ML/PL community, accepted authors will be given an opportunity to showcase their work in a poster session or oral for outstanding contributions. We expect to receive 30-40 submissions, and pledge that each paper will receive at least two fair and independent reviews. To minimize potential conflicts of interest, AIPLANS will manage submissions via \href{https://openreview.net}{OpenReview}.
+    The workshop itself will run for approximately eight hours, featuring four 45-minute contributed talks and up to six 20-minute contributed talks, with a strong preference for in-person attendance. AIPLANS will solicit four-page paper submissions in a CFP to be circulated pending workshop acceptance. To encourage submissions from the broader ML/PL community, accepted authors will be given an opportunity to showcase their work in a poster session, and exceptional contributions may be selected for a short spotlight talk. We expect to receive 30-40 submissions, and pledge that each paper will receive at least two fair and independent reviews. To minimize potential conflicts of interest, AIPLANS will manage submissions via \href{https://openreview.net}{OpenReview}.
 
     % An account of the efforts made to ensure diversity of the organizers and speakers (WiML, Black in AI, and LXAI directories, among others, may be a useful resource). Also an account of any efforts to include diverse participants (e.g., via mentoring, subsidies, or the wording and topics in the CFP).
 
@@ -185,23 +187,23 @@
 
             \draw (0,0) node[below=3pt] {Jun. 7\textsuperscript{th}} node[above=3pt] {};
             \draw (1,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Proposal submitted \end{turn} $};
-            \draw (2,0) node[below=3pt] {Jul. 23\textsuperscript{rd}} node[above=3pt] {};
+            \draw (2,0) node[below=3pt] {Jul. 12\textsuperscript{th}} node[above=3pt] {};
 
             \draw (2.8,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  CFP announced \end{turn} $};
-            \draw (4,0) node[below=3pt] {Sept. 24\textsuperscript{th}} node[above=3pt] {};
+            \draw (4,0) node[below=3pt] {Aug. 29\textsuperscript{th}} node[above=3pt] {};
             \draw (4.6,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  CFP closes \end{turn} $};
             \draw (6,0) node[below=3pt] {} node[above=3pt] {$ Reviewing $};
-            \draw (8,0) node[below=3pt] {Oct. 22\textsuperscript{nd}} node[above=3pt] {};
+            \draw (8,0) node[below=3pt] {Sept. 29\textsuperscript{th}} node[above=3pt] {};
             \draw (8.8,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Notifications sent \end{turn} $};
-            \draw (10,0) node[below=3pt] {Nov. 14\textsuperscript{th}} node[above=3pt] {};
+            \draw (10,0) node[below=3pt] {Nov. 1\textsuperscript{st}} node[above=3pt] {};
             \draw (10.9,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40}  Schedule finalized \end{turn} $};
-            \draw (12,0) node[below=3pt] {Dec. 14\textsuperscript{th}} node[above=3pt] {};
+            \draw (12,0) node[below=3pt] {Dec. 14/15\textsuperscript{th}} node[above=3pt] {};
             \draw (12.5,0) node[below=3pt] {} node[above=3pt] {$\begin{turn}{40} Workshop \end{turn} $};
         \end{tikzpicture}
         \caption{A tentative timeline for our proposed workshop at NeurIPS 2024.}
     \end{figure}
 
-    If accepted, AIPLANS will announce its CFP and pursue contributions from the broader ML/PL community shortly thereafter. Two months later, the CFP will close on Sept. 17\textsuperscript{th}. This deadline may be extended to no later than Sept. 24\textsuperscript{th}, depending on the volume of submissions received, leaving sufficient time for referees and program chairs to give feedback. Authors will be notified of acceptance no later than Oct. 22\textsuperscript{nd}. We intend to finalize the schedule and coordinate presentation logistics between Nov. and Dec. 14\textsuperscript{th}. Those who wish to prerecord talks will be given an opportunity to do so. The final workshop will consist of prerecorded and live talks with Q\&A, followed by a moderated panel, and virtual poster session hosted on \href{https://gather.town}{Gather.town}. Further details about schedule and logistics will be made available, pending acceptance at: \url{https://aiplans.github.io}.
+    If accepted, AIPLANS will announce its CFP and pursue contributions from the broader ML/PL community shortly thereafter. Six weeks later, the CFP will close on Aug. 29\textsuperscript{th}. This deadline may be extended to no later than Sept. 5\textsuperscript{th}, depending on the volume of submissions received, leaving sufficient time for referees and program chairs to give feedback. Authors will be notified of acceptance no later than Sept. 29\textsuperscript{th}. We intend to finalize the schedule and coordinate presentation logistics between Nov. 1\textsuperscript{st} and Dec. 14\textsuperscript{th}. Those who wish to prerecord talks will be given an opportunity to do so. The final workshop will consist of prerecorded and live talks with Q\&A, followed by a moderated panel, and poster session. Further details about schedule and logistics will be made available, pending acceptance at: \url{https://aiplans.github.io}.
 
     AIPLANS is an equal-opportunity workshop that celebrates cultural, linguistic, ethnic and intellectual diversity in all forms. Not only are we committed to nondiscrimination on the basis of, e.g., race, creed, age, gender, orientation, physical or mental handicap, but also aim to encourage individuals from other disadvantaged and underrepresented socioeconomic backgrounds to participate. Should our workshop be accepted, scholarships covering the cost of registration will be extended for those who wish to attend but would otherwise be unable to do so due to financial hardship. If needed, AIPLANS may pursue industry sponsorship for this initiative to enable a wider audience to attend. Further details about registration and funding availability will be provided in a timely manner.
 
@@ -220,7 +222,7 @@
 
                 \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/organizers/breandan}} & \textbf{Breandan Considine} is a Ph.D. student at McGill University co-supervised by Jin Guo and Xujie Si. His research studies how to reason about the behavior of real-world programs and build more intelligent programming tools for developers. Previously, he organized the first \href{https://aiplans.github.io/}{AIPLANS} workshop at NeurIPS and co-organized the ICLR workshop, \href{https://rethinkingmlpapers.github.io/}{Rethinking ML Papers}. \vspace*{0.1cm}\newline \faHome \,\url{https://breandan.github.io} \faTwitter \href{https://x.com/breandan}{ @breandan} \\\\\\
 
-                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/organizers/younesse}} & \textbf{Younesse Kaddar} is a Ph.D. student in theoretical computer science at the University of Oxford, working on programming language semantics, Bayesian probabilistic programming, and category theory. \vspace*{0.1cm}\newline\faHome \,\url{https://younesse.net/} \faTwitter \href{https://twitter.com/you_kad}{ @you\_kad}\\\\\\
+                \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/organizers/younesse}} & \textbf{Younesse Kaddar} is a Ph.D. student in theoretical computer science at the University of Oxford, working on programming language semantics, Bayesian probabilistic programming, and category theory. Previously, he was a visiting researcher at Mila, Qu\'ebec working with Yoshua Bengio.\vspace*{0.1cm}\newline\faHome \,\url{https://younesse.net/} \faTwitter \href{https://twitter.com/you_kad}{ @you\_kad}\\\\\\
 
                 \raisebox{-\totalheight}{\includegraphics[width=0.16\textwidth]{../img/organizers/justine}} & \vspace*{0.4cm}\textbf{Justine Gehring} is a research engineer at Moderne working in the field of Machine Learning (ML) for code and Graph Neural Networks (GNNs). Her focus lies in generating code under challenging circumstances, specifically in scenarios such as sparse data where library-specific code is required, as well as managing a substantial amount of code at a time. She completed her Master’s Degree in Computer Science at Mila \& McGill. \vspace*{0.1cm}\newline \faHome \,\url{https://justine-gehring.github.io/} \faTwitter \href{https://x.com/GehringJustine}{ @GehringJustine}\\\\\\
 
