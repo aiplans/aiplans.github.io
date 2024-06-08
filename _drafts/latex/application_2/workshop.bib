@@ -279,9 +279,30 @@
 
 @conference{shakarian2024tutorial,
     title={Advances in Neuro Symbolic Reasoning and Learning},
-    author={Shakarian, Paulo and Simari, Gerardo and others},
+    author={Shakarian, Paulo and others},
     year={2024},
     url = {https://neurosymbolic.asu.edu/2023-aaai-tutorial-advances-in-neuro-symbolic-reasoning/},
+}
+
+@conference{scholak2023workshop,
+    title={Deep Learning for Code},
+    author={Scholak, Torsten and Orlanski, Gabriel and Wang, Zijian and Shrivastava, Disha and Roy, Devjeet},
+    year={2023},
+    url = {https://dl4c.github.io/},
+}
+
+@conference{thanapalasingam2023nesysgems,
+    title={Neurosymbolic Generative Models Workshop},
+    author={Thanapalasingam, Thiviyan and van Krieken, Emile and Young, Halley and Shrivastava, Disha and Tomczak, Jakub and Ellis, Kevin},
+    year={2023},
+    url = {https://nesygems.github.io},
+}
+
+@conference{devanbu2024llm4code,
+    title={First International Workshop on Large Language Models for Code},
+    author={Devanbu, Prem and Lou, Yiling and Tan, Lin and Zhang, Lingming},
+    year={2024},
+    url = {https://llm4code.github.io},
 }
 
 @conference{palangi2022tutorial,
@@ -317,4 +338,458 @@
     author={Willard, Brandon T and Louf, R{\'e}mi},
     journal={arXiv preprint arXiv:2307.09702},
     year={2023}
+}
+
+@article{wolfram2013wolfram,
+    title={Wolfram research},
+    author={Wolfram, Stephen},
+    journal={Inc., Mathematica, Version},
+    volume={8},
+    pages={23},
+    year={2013}
+}
+
+@article{carpenter2017stan,
+    title={Stan: A probabilistic programming language},
+    author={Carpenter, Bob and Gelman, Andrew and Hoffman, Matthew D and Lee, Daniel and Goodrich, Ben and Betancourt, Michael and Brubaker, Marcus A and Guo, Jiqiang and Li, Peter and Riddell, Allen},
+    journal={Journal of statistical software},
+    volume={76},
+    year={2017},
+    publisher={NIH Public Access}
+}
+
+
+@inproceedings{gen,
+    author = {Cusumano-Towner, Marco F. and Saad, Feras A. and Lew, Alexander K. and Mansinghka, Vikash K.},
+    title = {Gen: a general-purpose probabilistic programming system with programmable inference},
+    year = {2019},
+    isbn = {9781450367127},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3314221.3314642},
+    doi = {10.1145/3314221.3314642},
+    abstract = {Although probabilistic programming is widely used for some restricted classes of statistical models, existing systems lack the flexibility and efficiency needed for practical use with more challenging models arising in fields like computer vision and robotics. This paper introduces Gen, a general-purpose probabilistic programming system that achieves modeling flexibility and inference efficiency via several novel language constructs: (i) the generative function interface for encapsulating probabilistic models; (ii) interoperable modeling languages that strike different flexibility/efficiency trade-offs; (iii) combinators that exploit common patterns of conditional independence; and (iv) an inference library that empowers users to implement efficient inference algorithms at a high level of abstraction. We show that Gen outperforms state-of-the-art probabilistic programming systems, sometimes by multiple orders of magnitude, on diverse problems including object tracking, estimating 3D body pose from a depth image, and inferring the structure of a time series.},
+    booktitle = {Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation},
+    pages = {221–236},
+    numpages = {16},
+    keywords = {Markov chain Monte Carlo, Probabilistic programming, sequential Monte Carlo, variational inference},
+    location = {Phoenix, AZ, USA},
+    series = {PLDI 2019}
+}
+
+@article{pyro,
+    author    = {Eli Bingham and
+               Jonathan P. Chen and
+               Martin Jankowiak and
+               Fritz Obermeyer and
+               Neeraj Pradhan and
+               Theofanis Karaletsos and
+               Rohit Singh and
+               Paul A. Szerlip and
+               Paul Horsfall and
+               Noah D. Goodman},
+    title     = {Pyro: Deep Universal Probabilistic Programming},
+    journal   = {J. Mach. Learn. Res.},
+    volume    = {20},
+    pages     = {28:1--28:6},
+    year      = {2019},
+    url       = {http://jmlr.org/papers/v20/18-403.html}
+}
+
+@article{numpyro,
+    title={Composable Effects for Flexible and Accelerated Probabilistic Programming in NumPyro},
+    author={Phan, Du and Pradhan, Neeraj and Jankowiak, Martin},
+    journal={arXiv preprint arXiv:1912.11554},
+    year={2019}
+}
+
+@article{stan,
+    abstract = {Stan is a probabilistic programming language for specifying statistical models. A Stan program imperatively defines a log probability function over parameters conditioned on specified data and constants. As of version 2.14.0, Stan provides full Bayesian inference for continuous-variable models through Markov chain Monte Carlo methods such as the No-U-Turn sampler, an adaptive form of Hamiltonian Monte Carlo sampling. Penalized maximum likelihood estimates are calculated using optimization methods such as the limited memory Broyden-Fletcher-Goldfarb-Shanno algorithm. Stan is also a platform for computing log densities and their gradients and Hessians, which can be used in alternative algorithms such as variational Bayes, expectation propagation, and marginal inference using approximate integration. To this end, Stan is set up so that the densities, gradients, and Hessians, along with intermediate quantities of the algorithm such as acceptance probabilities, are easily accessible. Stan can be called from the command line using the cmdstan package, through R using the rstan package, and through Python using the pystan package. All three interfaces support sampling and optimization-based inference with diagnostics and posterior analysis. rstan and pystan also provide access to log probabilities, gradients, Hessians, parameter transforms, and specialized plotting.},
+    author = {Carpenter, Bob and Gelman, Andrew and Hoffman, Matthew D. and Lee, Daniel and Goodrich, Ben and Betancourt, Michael and Brubaker, Marcus and Guo, Jiqiang and Li, Peter and Riddell, Allen},
+    doi = {10.18637/jss.v076.i01},
+    journal = {Journal of Statistical Software},
+    number = {1},
+    pages = {1--32},
+    title = {Stan: A Probabilistic Programming Language},
+    url = {https://www.jstatsoft.org/index.php/jss/article/view/v076i01},
+    volume = {76},
+    year = {2017},
+    bdsk-url-1 = {https://www.jstatsoft.org/index.php/jss/article/view/v076i01},
+    bdsk-url-2 = {https://doi.org/10.18637/jss.v076.i01}}
+
+@article{turing-ppl,
+    title = 	 {Turing: A Language for Flexible Probabilistic Inference},
+    author = 	 {Ge, Hong and Xu, Kai and Ghahramani, Zoubin},
+    booktitle = 	 {Proceedings of the Twenty-First International Conference on Artificial Intelligence and Statistics},
+    pages = 	 {1682--1690},
+    year = 	 {2018},
+    editor = 	 {Storkey, Amos and Perez-Cruz, Fernando},
+    volume = 	 {84},
+    series = 	 {Proceedings of Machine Learning Research},
+    month = 	 {09--11 Apr},
+    publisher =    {PMLR},
+    pdf = 	 {http://proceedings.mlr.press/v84/ge18b/ge18b.pdf},
+    url = 	 {https://proceedings.mlr.press/v84/ge18b.html},
+    abstract = 	 {Probabilistic programming promises to simplify and democratize probabilistic machine learning, but successful probabilistic programming systems require flexible, generic and efficient inference engines. In this work, we present a system called Turing for building MCMC algorithms for probabilistic programming inference. Turing has a very simple syntax and makes full use of the numerical capabilities in the Julia programming language, including all implemented probability distributions, and automatic differentiation. Turing supports a wide range of popular Monte Carlo algorithms, including Hamiltonian Monte Carlo (HMC), HMC with No-U-Turns (NUTS), Gibbs sampling, sequential Monte Carlo (SMC), and several particle MCMC (PMCMC) samplers. Most importantly, Turing inference is composable: it combines MCMC operations on subsets of variables, for example using a combination of an HMC engine and a particle Gibbs (PG) engine.  We explore several combinations of inference methods with the aim of finding approaches that are both efficient and universal, i.e. applicable to arbitrary probabilistic models. NUTS—a popular variant of HMC that adapts Hamiltonian simulation path length automatically, although quite powerful for exploring differentiable target distributions, is however not universal. We identify some failure modes for the NUTS engine, and demonstrate that composition of PG (for discrete variables) and NUTS (for continuous variables) can be useful when the NUTS engine is either not applicable, or simply does not work well. Our aim is to present Turing and its composable inference engines to the world and encourage other researchers to build on this system to help advance the field of probabilistic machine learning. }
+}
+
+
+@article{monadbayes,
+    author = {undefinedcibior, Adam and Kammar, Ohad and Ghahramani, Zoubin},
+    title = {Functional programming for modular Bayesian inference},
+    year = {2018},
+    issue_date = {September 2018},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {2},
+    number = {ICFP},
+    url = {https://doi.org/10.1145/3236778},
+    doi = {10.1145/3236778},
+    abstract = {We present an architectural design of a library for Bayesian modelling and inference in modern functional programming languages. The novel aspect of our approach are modular implementations of existing state-of-the-art inference algorithms. Our design relies on three inherently functional features: higher-order functions, inductive data-types, and support for either type-classes or an expressive module system. We provide a performant Haskell implementation of this architecture, demonstrating that high-level and modular probabilistic programming can be added as a library in sufficiently expressive languages. We review the core abstractions in this architecture: inference representations, inference transformations, and inference representation transformers. We then implement concrete instances of these abstractions, counterparts to particle filters and Metropolis-Hastings samplers, which form the basic building blocks of our library. By composing these building blocks we obtain state-of-the-art inference algorithms: Resample-Move Sequential Monte Carlo, Particle Marginal Metropolis-Hastings, and Sequential Monte Carlo Squared. We evaluate our implementation against existing probabilistic programming systems and find it is already competitively performant, although we conjecture that existing functional programming optimisation techniques could reduce the overhead associated with the abstractions we use. We show that our modular design enables deterministic testing of inherently stochastic Monte Carlo algorithms. Finally, we demonstrate using OCaml that an expressive module system can also implement our design.},
+    journal = {Proc. ACM Program. Lang.},
+    month = {jul},
+    articleno = {83},
+    numpages = {29},
+    keywords = {type-classes, probabilistic programming, monads, monad transformers, module systems, machine learning, inductive types, higher-order functions, functional programming, WebPPL, Sequential Monte Carlo, Monte Carlo samplers, Markov Chain Monte Carlo, Bayesian inference, Anglican}
+}
+
+@article{lamport1978state,
+    title={State the problem before describing the solution},
+    author={Lamport, Leslie},
+    journal={ACM SIGSOFT Software Engineering Notes},
+    volume={3},
+    number={1},
+    pages={26--26},
+    year={1978},
+    publisher={ACM New York, NY, USA},
+    url={https://lamport.azurewebsites.net/pubs/state-the-problem.pdf}
+}
+
+@inproceedings{weiss2018extracting,
+    title={Extracting automata from recurrent neural networks using queries and counterexamples},
+    author={Weiss, Gail and Goldberg, Yoav and Yahav, Eran},
+    booktitle={International Conference on Machine Learning},
+    pages={5247--5256},
+    year={2018},
+    organization={PMLR}
+}
+
+@article{gorinova2021conditional,
+    title={Conditional independence by typing},
+    author={Gorinova, Maria I and Gordon, Andrew D and Sutton, Charles and V{\'a}k{\'a}r, Matthijs},
+    journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+    volume={44},
+    number={1},
+    pages={1--54},
+    year={2021},
+    publisher={ACM New York, NY}
+}
+
+@inproceedings{lobo2020programming,
+    title={A programming framework for differential privacy with accuracy concentration bounds},
+    author={Lobo-Vesga, Elisabet and Russo, Alejandro and Gaboardi, Marco},
+    booktitle={2020 IEEE Symposium on Security and Privacy (SP)},
+    pages={411--428},
+    year={2020},
+    organization={IEEE}
+}
+
+@article{lew2023probabilistic,
+    title={Probabilistic Programming with Stochastic Probabilities},
+    author={Lew, Alexander K and Ghavamizadeh, Matin and Rinard, Martin C and Mansinghka, Vikash K},
+    journal={Proceedings of the ACM on Programming Languages},
+    volume={7},
+    number={PLDI},
+    pages={1708--1732},
+    year={2023},
+    publisher={ACM New York, NY, USA}
+}
+
+@article{klinkenberg2024exact,
+    title={Exact Bayesian Inference for Loopy Probabilistic Programs using Generating Functions},
+    author={Klinkenberg, Lutz and Blumenthal, Christian and Chen, Mingshuai and Haase, Darion and Katoen, Joost-Pieter},
+    journal={Proceedings of the ACM on Programming Languages},
+    volume={8},
+    number={OOPSLA1},
+    pages={923--953},
+    year={2024},
+    publisher={ACM New York, NY, USA}
+}
+
+@article{zaiser2024exact,
+    title={Exact Bayesian Inference on Discrete Models via Probability Generating Functions: A Probabilistic Programming Approach},
+    author={Zaiser, Fabian and Murawski, Andrzej and Ong, Chih-Hao Luke},
+    journal={Advances in Neural Information Processing Systems},
+    volume={36},
+    year={2024}
+}
+
+@article{chiang2023exact,
+    title={Exact recursive probabilistic programming},
+    author={Chiang, David and McDonald, Colin and Shan, Chung-chieh},
+    journal={Proceedings of the ACM on Programming Languages},
+    volume={7},
+    number={OOPSLA1},
+    pages={665--695},
+    year={2023},
+    publisher={ACM New York, NY, USA}
+}
+
+@article{batz2023calculus,
+    title={A calculus for amortized expected runtimes},
+    author={Batz, Kevin and Kaminski, Benjamin Lucien and Katoen, Joost-Pieter and Matheja, Christoph and Verscht, Lena},
+    journal={Proceedings of the ACM on Programming Languages},
+    volume={7},
+    number={POPL},
+    pages={1957--1986},
+    year={2023},
+    publisher={ACM New York, NY, USA}
+}
+
+@article{strobl2024formal,
+    title={What Formal Languages Can Transformers Express? A Survey},
+    author={Strobl, Lena and Merrill, William and Weiss, Gail and Chiang, David and Angluin, Dana},
+    journal={Transactions of the Association for Computational Linguistics},
+    volume={12},
+    pages={543--561},
+    year={2024},
+    publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA~…}
+}
+
+@inproceedings{chiang2023tighter,
+    title={Tighter bounds on the expressivity of transformer encoders},
+    author={Chiang, David and Cholak, Peter and Pillay, Anand},
+    booktitle={International Conference on Machine Learning},
+    pages={5544--5562},
+    year={2023},
+    organization={PMLR}
+}
+
+@article{choi2020probabilistic,
+    title={Probabilistic circuits: A unifying framework for tractable probabilistic models},
+    author={Choi, Y and Vergari, Antonio and Van den Broeck, Guy},
+    journal={UCLA},
+    url={http://starai.cs. ucla.edu/papers/ProbCirc20.pdf},
+    pages={6},
+    year={2020}
+}
+
+@article{lan2024bridging,
+    title={Bridging the Empirical-Theoretical Gap in Neural Network Formal Language Learning Using Minimum Description Length},
+    author={Lan, Nur and Chemla, Emmanuel and Katzir, Roni},
+    journal={arXiv preprint arXiv:2402.10013},
+    year={2024}
+}
+
+@article{moosbrugger2022moment,
+    title={This is the moment for probabilistic loops},
+    author={Moosbrugger, Marcel and Stankovi{\v{c}}, Miroslav and Bartocci, Ezio and Kov{\'a}cs, Laura},
+    journal={Proceedings of the ACM on Programming Languages},
+    volume={6},
+    number={OOPSLA2},
+    pages={1497--1525},
+    year={2022},
+    publisher={ACM New York, NY, USA}
+}
+
+@article{udrescu2020ai,
+    title={AI Feynman: A physics-inspired method for symbolic regression},
+    author={Udrescu, Silviu-Marian and Tegmark, Max},
+    journal={Science Advances},
+    volume={6},
+    number={16},
+    pages={eaay2631},
+    year={2020},
+    publisher={American Association for the Advancement of Science}
+}
+
+@article{pu2020program,
+    title={Program synthesis with pragmatic communication},
+    author={Pu, Yewen and Ellis, Kevin and Kryven, Marta and Tenenbaum, Josh and Solar-Lezama, Armando},
+    journal={Advances in Neural Information Processing Systems},
+    volume={33},
+    pages={13249--13259},
+    year={2020}
+}
+
+@article{acquaviva2022communicating,
+    title={Communicating natural programs to humans and machines},
+    author={Acquaviva, Sam and Pu, Yewen and Kryven, Marta and Sechopoulos, Theodoros and Wong, Catherine and Ecanow, Gabrielle and Nye, Maxwell and Tessler, Michael and Tenenbaum, Josh},
+    journal={Advances in Neural Information Processing Systems},
+    volume={35},
+    pages={3731--3743},
+    year={2022}
+}
+
+@article{topan2021techniques,
+    title={Techniques for symbol grounding with {SATN}et},
+    author={Topan, Sever and Rolnick, David and Si, Xujie},
+    journal={Advances in Neural Information Processing Systems},
+    volume={34},
+    pages={20733--20744},
+    year={2021}
+}
+
+@article{ackerman2024probabilistic,
+    title={Probabilistic Programming Interfaces for Random Graphs},
+    author={Ackerman, Nate and Freer, Cameron and Kaddar, Younesse and Karwowski, Jacek and Moss, Sean and Roy, Daniel and Staton, Sam and Yang, Hongseok},
+    year={2024}
+}
+
+@article{liu2024scaling,
+    title={Scaling Tractable Probabilistic Circuits: A Systems Perspective},
+    author={Liu, Anji and Ahmed, Kareem and Broeck, Guy Van den},
+    journal={arXiv preprint arXiv:2406.00766},
+    year={2024}
+}
+
+@article{merrill2022saturated,
+    title={Saturated transformers are constant-depth threshold circuits},
+    author={Merrill, William and Sabharwal, Ashish and Smith, Noah A},
+    journal={Transactions of the Association for Computational Linguistics},
+    volume={10},
+    pages={843--856},
+    year={2022},
+    publisher={MIT Press One Broadway, 12th Floor, Cambridge, Massachusetts 02142, USA~…}
+}
+
+@article{chaitin1977algorithmic,
+    title={Algorithmic information theory},
+    author={Chaitin, Gregory J},
+    journal={IBM journal of research and development},
+    volume={21},
+    number={4},
+    pages={350--359},
+    year={1977},
+    publisher={IBM}
+}
+
+@article{kwiatkowska2018probabilistic,
+    title={Probabilistic model checking: Advances and applications},
+    author={Kwiatkowska, Marta and Norman, Gethin and Parker, David},
+    journal={Formal System Verification: State-of the-Art and Future Trends},
+    pages={73--121},
+    year={2018},
+    publisher={Springer}
+}
+
+@book{flajolet2009analytic,
+    title={Analytic combinatorics},
+    author={Flajolet, Philippe and Sedgewick, Robert},
+    year={2009},
+    publisher={Cambridge University Press}
+}
+
+@article{hersche2023neuro,
+    title={A neuro-vector-symbolic architecture for solving Raven’s progressive matrices},
+    author={Hersche, Michael and Zeqiri, Mustafa and Benini, Luca and Sebastian, Abu and Rahimi, Abbas},
+    journal={Nature Machine Intelligence},
+    volume={5},
+    number={4},
+    pages={363--375},
+    year={2023},
+    publisher={Nature Publishing Group UK London}
+}
+
+@article{muller2023abstract,
+    title={Abstract interpretation of fixpoint iterators with applications to neural networks},
+    author={M{\"u}ller, Mark Niklas and Fischer, Marc and Staab, Robin and Vechev, Martin},
+    journal={Proceedings of the ACM on Programming Languages},
+    volume={7},
+    number={PLDI},
+    pages={786--810},
+    year={2023},
+    publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{giannou2023looped,
+    title={Looped transformers as programmable computers},
+    author={Giannou, Angeliki and Rajput, Shashank and Sohn, Jy-yong and Lee, Kangwook and Lee, Jason D and Papailiopoulos, Dimitris},
+    booktitle={International Conference on Machine Learning},
+    pages={11398--11442},
+    year={2023},
+    organization={PMLR}
+}
+
+@article{liu2022transformers,
+    title={Transformers learn shortcuts to automata},
+    author={Liu, Bingbin and Ash, Jordan T and Goel, Surbhi and Krishnamurthy, Akshay and Zhang, Cyril},
+    journal={arXiv preprint arXiv:2210.10749},
+    year={2022}
+}
+
+@article{rizvi2024simulating,
+    title={Simulating Weighted Automata over Sequences and Trees with Transformers},
+    author={Rizvi, Michael and Lizaire, Maude and Lacroce, Clara and Rabusseau, Guillaume},
+    journal={arXiv preprint arXiv:2403.09728},
+    year={2024}
+}
+
+@article{friedman2024learning,
+    title={Learning transformer programs},
+    author={Friedman, Dan and Wettig, Alexander and Chen, Danqi},
+    journal={Advances in Neural Information Processing Systems},
+    volume={36},
+    year={2024}
+}
+
+@article{yang2024counting,
+    title={Counting like transformers: Compiling temporal counting logic into softmax transformers},
+    author={Yang, Andy and Chiang, David},
+    journal={arXiv preprint arXiv:2404.04393},
+    year={2024}
+}
+
+@article{gulwani2011automating,
+    title={Automating string processing in spreadsheets using input-output examples},
+    author={Gulwani, Sumit},
+    journal={ACM Sigplan Notices},
+    volume={46},
+    number={1},
+    pages={317--330},
+    year={2011},
+    publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{hill2021actions,
+    title={Actions you can handle: dependent types for AI plans},
+    author={Hill, Alasdair and Komendantskaya, Ekaterina and Daggitt, Matthew L and Petrick, Ronald PA},
+    booktitle={Proceedings of the 6th ACM SIGPLAN International Workshop on Type-Driven Development},
+    pages={1--13},
+    year={2021}
+}
+
+@article{faghihi2021domiknows,
+    title={Domiknows: A library for integration of symbolic domain knowledge in deep learning},
+    author={Faghihi, Hossein Rajaby and Guo, Quan and Uszok, Andrzej and Nafar, Aliakbar and Raisi, Elaheh and Kordjamshidi, Parisa},
+    journal={arXiv preprint arXiv:2108.12370},
+    year={2021}
+}
+
+@article{kordjamshidi2022declarative,
+    title={Declarative learning-based programming as an interface to AI systems},
+    author={Kordjamshidi, Parisa and Roth, Dan and Kersting, Kristian},
+    journal={Frontiers in artificial intelligence},
+    volume={5},
+    pages={755361},
+    year={2022},
+    publisher={Frontiers Media SA}
+}
+
+@article{hu2023amortizing,
+    title={Amortizing intractable inference in large language models},
+    author={Hu, Edward J and Jain, Moksh and Elmoznino, Eric and Kaddar, Younesse and Lajoie, Guillaume and Bengio, Yoshua and Malkin, Nikolay},
+    journal={arXiv preprint arXiv:2310.04363},
+    year={2023}
+}
+
+@article{ellis2023dreamcoder,
+    title={Dreamcoder: growing generalizable, interpretable knowledge with wake--sleep bayesian program learning},
+    author={Ellis, Kevin and Wong, Lionel and Nye, Maxwell and Sable-Meyer, Mathias and Cary, Luc and Anaya Pozo, Lore and Hewitt, Luke and Solar-Lezama, Armando and Tenenbaum, Joshua B},
+    journal={Philosophical Transactions of the Royal Society A},
+    volume={381},
+    number={2251},
+    pages={20220050},
+    year={2023},
+    publisher={The Royal Society}
 }
